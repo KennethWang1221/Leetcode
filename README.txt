@@ -1,2 +1,2 @@
-This is Leetcode repo practice branch.
+This is Leetcode repository branch.
 
