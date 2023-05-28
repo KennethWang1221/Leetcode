@@ -25,6 +25,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1260      | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)         | Array        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=nJYFh4Dl-as)        | ✔️       |   |
 | sort      | [sort algorithm](./data_structures/Leetcode_sort_algorithm.ipynb)         | 10 sort algoritmes        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_sort_algorithm.ipynb)        | ✔️       |   |
 
+
 ### String
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
@@ -256,7 +257,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
-
+| 0072      | [Edit Distance](https://leetcode.com/problems/edit-distance/)         | DP         | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://turingplanet.org/2020/09/18/leetcode_planning_list/#Array) [2](https://www.youtube.com/watch?v=XYi2-LPrwm4)        | ✔️       | Bottom-up DP   |
 
 ### Dynamic Programming 2D (1D Input)
 
