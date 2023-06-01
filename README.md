@@ -296,7 +296,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 ### Union Find
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
-| 0684      | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)         | Graph Problems - Union Find         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=FXWRE67PLL0&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=12)        | ✔️       | Need Investigate   |
+| 0684      | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)         | Graph Problems - Union Find         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=FXWRE67PLL0&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=12)        |        | Need Investigate   |
 
 
 ### Topological Sort
