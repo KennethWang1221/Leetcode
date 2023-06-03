@@ -203,7 +203,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0417      | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=s-VkcjHqkGI&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=8)        | ✔️       |   |
 | 0743      | [Network Delay Time](https://leetcode.com/problems/network-delay-time/)         | Djikstra        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=EaphyqKU4PQ&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=9) [2](https://github.com/neetcode-gh/leetcode/blob/main/python/0743-network-delay-time.py)       | ✔️       |   |
 | 0261      | [Graph Valid Tree](https://www.lintcode.com/problem/graph-valid-tree/description)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=bXsUuownnoQ&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=13)       | ✔️       |   |
-
+| 0212      | [Word Search II](https://leetcode.com/problems/word-search-ii/)         | DFS / Trie       | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=asbcE9mZz_U&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=14)       |        | Need Investigate  |
 
 ## Basic Algorithms
 ### Binary Search
