@@ -206,7 +206,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0212      | [Word Search II](https://leetcode.com/problems/word-search-ii/)         | DFS / Trie       | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=asbcE9mZz_U&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=14)       |        | Need Investigate  |
 | 1584      | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)         | Minimum Cost Spanning Tree / Prim's Algorithm      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=f7JOBJIC-NA&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=17)       |    ✔️    | Recap heapq & Learn Prim's Algorithm |
 | 1905      | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)         | DFS      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=mLpW3qfbNJ8&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=18)       |    ✔️    | Similar as Leetcode_0200_Number_of_Islands |
-
+| 0778      | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)         | Dijkstra's Algorithm      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=amvrKlMLuGY&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=19)       |    ✔️    |  |
 
 ## Basic Algorithms
 ### Binary Search
