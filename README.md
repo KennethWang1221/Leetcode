@@ -186,7 +186,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0310      | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)         | Topological        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://turingplanet.org/2020/09/18/leetcode_planning_list/#Array) [2](https://leetcode.com/problems/minimum-height-trees/solutions/2677980/python-linear-time-solution-using-topological-sorting/) [3](https://www.youtube.com/watch?v=pUtxTz134qM)   |        |   |
 | 0463      | [Island Perimeter](https://leetcode.com/problems/island-perimeter/)         | DFS        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=fISIuAFRM2s&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=15)   |        ✔️|   |
 | 1466      | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/)         | BFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=m17yOR5_PpI&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=11)   |        ✔️|   |
-
+| 0286      | [Walls and Gates](https://www.lintcode.com/problem/663/)         | Multi-Source BFS      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=e69C6xhiSQE&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=20)       |    ✔️    |  |
 
 ### Graph (Best-FS)
 
