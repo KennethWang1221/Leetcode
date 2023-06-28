@@ -210,6 +210,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0778      | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)         | Dijkstra's Algorithm      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=amvrKlMLuGY&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=19)       |    ✔️    |  |
 | 0130      | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)         | Reverse thinking     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=9z2BunfoZ5Y&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=22)       |    ✔️    |  |
 | 0695      | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)         | DFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=iJGr1OtmH0c&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=24)       |    ✔️    | Similar to Leetcode_0200_Number_of_Islands.ipynb |
+| 0332      | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)         | DFS     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=ZyB_gQ8vqGA&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=24)       |    ✔️    |  |
 
 ## Basic Algorithms
 ### Binary Search
