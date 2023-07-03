@@ -188,6 +188,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1466      | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/)         | BFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=m17yOR5_PpI&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=11)   |        ✔️|   |
 | 0286      | [Walls and Gates](https://www.lintcode.com/problem/663/)         | Multi-Source BFS      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=e69C6xhiSQE&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=20)       |    ✔️    |  |
 | 0787      | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)         |  Ballman-Ford Algorithm    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=5eIK3zUdYmE&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=22)       |    ✔️    |  |
+| 0994      | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)         | BFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=y704fEOx0s0&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=25)   |        ✔️|   |
 
 ### Graph (Best-FS)
 
