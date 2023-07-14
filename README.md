@@ -189,6 +189,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0286      | [Walls and Gates](https://www.lintcode.com/problem/663/)         | Multi-Source BFS      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=e69C6xhiSQE&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=20)       |    ✔️    |  |
 | 0787      | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)         |  Ballman-Ford Algorithm    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=5eIK3zUdYmE&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=22)       |    ✔️    |  |
 | 0994      | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)         | BFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=y704fEOx0s0&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=25)   |        ✔️|   |
+| 0752      | [Open the Lock](https://leetcode.com/problems/open-the-lock/description/)         | BFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Pzg3bCDY87w&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=28)   |        ✔️|   |
 
 ### Graph (Best-FS)
 
