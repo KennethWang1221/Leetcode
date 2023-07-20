@@ -174,6 +174,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0295     | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)         | Heap      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=itmhHWaHupI) [2](./data_structures/Leetcode_0295_Find_Median_from_Data_Stream.ipynb)  | ✔️       |  Recap Heap can see Leetcode_1584  |
+| 0973     | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)         | Heap      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=rI2EBUEMfTk)  | ✔️       |  Recap Heap  |
 
 ### Graph (Breadth-FS)
 
