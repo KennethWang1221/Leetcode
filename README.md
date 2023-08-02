@@ -177,6 +177,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0973     | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)         | Heap      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=rI2EBUEMfTk)  | ✔️       |  Recap Heap  |
 | 0703     | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)         | Heap      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=hOjcdrqMoQ8)  | ✔️       |   |
 | 0215     | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)         | Heap / Quick Select      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=XEmy13g1Qxc)  | ✔️       |   |
+| 0692     | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)         | Heap / Dict      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/zhuifengshen/awesome-leetcode/blob/master/docs/Leetcode_Solutions/Python/0692._Top_K_Frequent_Words.md) [2](https://walkccc.me/LeetCode/problems/0692/)  | Need Investigate       |   |
 
 ### Graph (Breadth-FS)
 
