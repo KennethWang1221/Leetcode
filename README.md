@@ -25,7 +25,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1260      | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)         | Array        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=nJYFh4Dl-as)        | ✔️       |   |
 | sort      | [sort algorithm](./data_structures/Leetcode_sort_algorithm.ipynb)         | 10 sort algoritmes        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_sort_algorithm.ipynb)        | ✔️       |   |
 | 0027      | [Remove Element](https://leetcode.com/problems/remove-element/?envType=study-plan-v2&envId=top-interview-150)         | Two Pointers        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=Pcd1ii9P9ZI)        | ✔️       | Top Interview 002/150  |
-| 0080      | [Remove Duplicates Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/?envType=study-plan-v2&envId=top-interview-150)         | Two Pointers        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Pcd1ii9P9ZI](https://www.youtube.com/watch?v=ycAq8iqh0TI&t=2s))        | ✔️       | Top Interview 004/150  |
+| 0080      | [Remove Duplicates Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/?envType=study-plan-v2&envId=top-interview-150)         | Array / Two Pointers        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Pcd1ii9P9ZI](https://www.youtube.com/watch?v=ycAq8iqh0TI&t=2s))        | ✔️       | Top Interview 004/150  |
 
 ### String
 
