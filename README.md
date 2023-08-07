@@ -258,6 +258,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
+| 0121      | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)         | Array / DP        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=1pkOgXD63yU)        | ✔️       | Top Interview 006/150 / Understand for-loop and while-loop |
 
 
 ### Dynamic Programming 1D (Multiple States)
