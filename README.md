@@ -124,7 +124,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0705     | [Design HashSet](https://leetcode.com/problems/design-hashset/)         | HashMap        | ![Easy](https://img.shields.io/badge/-Easy-success)   | [1](./data_structures/Leetcode_0705_Design_HashSet.ipynb)        | ✔️       |   |
 | 0953     | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)         | HashMap        | ![Easy](https://img.shields.io/badge/-Easy-success)   | [1](https://leetcode.com/problems/verifying-an-alien-dictionary/solutions/361525/Python-Solution-with-Detailed-Explaination-for-Beginner/)        | ✔️       |   |
 | 1002     | [Find Common Characters](https://leetcode.com/problems/find-common-characters/)         | HashMap        | ![Easy](https://img.shields.io/badge/-Easy-success)   | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/1002.查找常用字符.md)        | ✔️       |   |
-
+| 0169      | [Majority Element](https://leetcode.com/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150)         | Array / HashMap / Divide and Conquer       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.google.com/search?q=majority+element&oq=Majority+Element&aqs=chrome.0.0i512l5j69i60l3.273j0j4&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:c2f87b1f,vid:7pnhv842keE)        | ✔️       | Top Interview 005/150  |
 ### Tree
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
