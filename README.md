@@ -260,6 +260,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0121      | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)         | Array / DP / Sliding Window        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=1pkOgXD63yU)        | ✔️       | Top Interview 006/150 / Understand for-loop and while-loop |
 | 0122      | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/?envType=study-plan-v2&envId=top-interview-150)         | Array / DP / Sliding Window / Greedy        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=3SJ3pUkPQMc)        | ✔️       | Top Interview 007/150 / Understand DP |
+| 0055      | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/jump-game/?envType=study-plan-v2&envId=top-interview-150)         | Array / DP / Greedy        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Yan0cv2cLy8)        | ✔️       | Top Interview 008/150 / Understand DP & Greedy |
 
 ### Dynamic Programming 1D (Multiple States)
 
