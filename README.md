@@ -50,7 +50,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0848      | [Shifting Letters](https://leetcode.com/problems/shifting-letters/)         | String        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0848_Shifting_Letters.ipynb)       | ✔️       |   |
 | 0937      | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)         | String        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0937_Reorder_Data_In_Long_Files.ipynb)        | ✔️       |   |
 | 1047      | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)         | String        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_1047_Remove_all_Adjacent_Duplicates_in_String.ipynb)        | ✔️       |   |
-
+| 0058      | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)         | String        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=KT9rltZTybQ)        | ✔️       | Top Interview 0019/150  |
 ### Linked List
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
