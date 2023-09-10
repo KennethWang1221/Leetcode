@@ -32,7 +32,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
-| 0006      | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)         | String        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0006_ZigZag_Conversion.ipynb)       | ✔️       |   |
+| 0006      | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)         | String        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0006_ZigZag_Conversion.ipynb) [2](https://www.youtube.com/watch?v=Q2Tw6gcVEwc)       | ✔️       | Top Interview 0022/150  |
 | 0008      | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)         | String        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=YA0LYrKI1CQ)       | ✔️       |   |
 | 0014      | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)         | String        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=0sWShKIJoo4)       | ✔️ | Top Interview 0021/150 | 
 | 0028      | [Implement strStr](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)         | String        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_0028_Implement_strStr.ipynb)       | ✔️ | 
