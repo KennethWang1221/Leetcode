@@ -27,6 +27,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0027      | [Remove Element](https://leetcode.com/problems/remove-element/?envType=study-plan-v2&envId=top-interview-150)         | Two Pointers        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=Pcd1ii9P9ZI)        | ✔️       | Top Interview 0002/150  |
 | 0080      | [Remove Duplicates Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/?envType=study-plan-v2&envId=top-interview-150)         | Array / Two Pointers        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=ycAq8iqh0TI&t=2s)        | ✔️       | Top Interview 0004/150  |
 | 0238      | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/?envType=study-plan-v2&envId=top-interview-150)         | Array / Prefix sum        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=bNvIQI2wAjk)        | ✔️       | Top Interview 0013/150  |
+| 0209      | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/?envType=study-plan-v2&envId=top-interview-150)         | Array / Sliding Window        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=aYqYMIqZx5s&t=182s)        | ✔️       | Top Interview 0031/150  |
 
 ### String
 
