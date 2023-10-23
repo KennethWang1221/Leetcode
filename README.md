@@ -29,6 +29,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0238      | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/?envType=study-plan-v2&envId=top-interview-150)         | Array / Prefix sum        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=bNvIQI2wAjk)        | ✔️       | Top Interview 0013/150  |
 | 0209      | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/?envType=study-plan-v2&envId=top-interview-150)         | Array / Sliding Window        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=aYqYMIqZx5s&t=182s)        | ✔️       | Top Interview 0031/150  |
 | 0036      | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/?envType=study-plan-v2&envId=top-interview-150)         | Array / Matrix        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=TjFXEUCMqI8)        | ✔️       | Top Interview 0035/150  |
+| 0073      | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/?envType=study-plan-v2&envId=top-interview-150)         | Array / Matrix        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=T41rL0L3Pnw)        | Need Investigate       | Top Interview 0038/150  |
 
 ### String
 
