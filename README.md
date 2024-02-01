@@ -109,6 +109,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1249      | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)         | Stack        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1249_Minimum_Remove_to_Make_Valid_Parentheses.ipynb)        | ✔️       |  |
 | 0020      | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/?envType=study-plan-v2&envId=top-interview-150)         | Stack        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_0020_Valid_Parentheses.ipynb) [2](https://www.youtube.com/watch?v=WTzjTskDFMg)       | ✔️       | Top Interview 0053/150 |
 | 0071      | [Simplify Path](https://leetcode.com/problems/simplify-path/description/?envType=study-plan-v2&envId=top-interview-150)         | Stack        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=qYlHrAKJfyA) | ✔️       | Top Interview 0054/150 |
+| 0224      | [Basic Calculator](https://leetcode.com/problems/basic-calculator/?envType=study-plan-v2&envId=top-interview-150)         | Stack        | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://leetcode.com/problems/basic-calculator/solutions/546092/simple-python-solution-using-stack-with-explanation-inline/?envType=study-plan-v2&envId=top-interview-150) | ✔️       | Top Interview 0057/150 |
 
 ## Advanced Data Structures
 ### HashSet / HashTable
