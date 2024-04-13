@@ -225,6 +225,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0994      | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)         | BFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=y704fEOx0s0&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=25)   |        ✔️|   |
 | 0752      | [Open the Lock](https://leetcode.com/problems/open-the-lock/description/)         | BFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Pzg3bCDY87w&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=28)   |        | Need Investigate  |
 | 0934      | [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)         | BFS / DFS       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=gkINMhbbIbU&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=29)   |        | Need Investigate  |
+| 0909      | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/?envType=study-plan-v2&envId=top-interview-150)         | BFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=6lH4nO3JfLk)   |  ✔️       | Top Interview 0095/150  |
 
 ### Graph (Best-FS)
 
