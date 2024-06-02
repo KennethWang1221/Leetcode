@@ -285,7 +285,8 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0079      | [Word Search](https://leetcode.com/problems/word-search/)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=pfiQ_PS1g8E&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=10)        | ✔️       | Top Interview 0107/150  |
-| 0079      | [Word Search](https://leetcode.com/problems/word-search/)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=0snEunUacZY)        | ✔️       | Top Interview 0101/150  |
+| 0017      | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=0snEunUacZY)        | ✔️       | Top Interview 0101/150  |
+| 0077      | [Combinations](https://leetcode.com/problems/combinations/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=q0s6m7AiM7o)        | ✔️       | Top Interview 0102/150  |
 
 
 ### Dynamic Programming 1D
