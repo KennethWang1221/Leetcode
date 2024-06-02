@@ -348,6 +348,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0208      | [Implement Trie Prefix Tree](https://leetcode.com/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=top-interview-150)         | Trie / Prefix Tree       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=oobqoCJlHA0&t=12s)        | ✔️       | Top Interview 0098/150 |
+| 0211      | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/?envType=study-plan-v2&envId=top-interview-150)         | Trie / Prefix Tree      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=BTf05gs_8iU)        | ✔️       | Top Interview 0100/150 |
 
 ### Union Find
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
