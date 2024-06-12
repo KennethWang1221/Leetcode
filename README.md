@@ -288,7 +288,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0017      | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=0snEunUacZY)        | ✔️       | Top Interview 0101/150  |
 | 0077      | [Combinations](https://leetcode.com/problems/combinations/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=q0s6m7AiM7o)        | ✔️       | Top Interview 0102/150  |
 | 0046      | [Permutations](https://leetcode.com/problems/permutations/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=s7AvT7cGdSo)        | ✔️       | Top Interview 0103/150  |
-
+| 0039      | [Combination Sum](https://leetcode.com/problems/combination-sum/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=GBKI9VSKdGg)        | ✔️       | Top Interview 0104/150  |
 
 ### Dynamic Programming 1D
 
