@@ -289,6 +289,8 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0077      | [Combinations](https://leetcode.com/problems/combinations/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=q0s6m7AiM7o)        | ✔️       | Top Interview 0102/150  |
 | 0046      | [Permutations](https://leetcode.com/problems/permutations/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=s7AvT7cGdSo)        | ✔️       | Top Interview 0103/150  |
 | 0039      | [Combination Sum](https://leetcode.com/problems/combination-sum/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=GBKI9VSKdGg)        | ✔️       | Top Interview 0104/150  |
+| 0052      | [N-Queens II](https://leetcode.com/problems/n-queens-ii/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=nalYyLZgvCY)        | ✔️       | Top Interview 0105/150  |
+| 0022      | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=s9fokUqJ76A)        | ✔️       | Top Interview 0106/150  |
 
 ### Dynamic Programming 1D
 
