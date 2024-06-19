@@ -77,7 +77,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0141      | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)         | Linked List        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.bilibili.com/video/BV1PA411b7gq/?spm_id_from=333.999.0.0) [2](https://www.youtube.com/watch?v=gBTe7lFR3vc)        | ✔️       | Top Interview 0058/150  |
 | 0142      | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)         | Linked List        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.bilibili.com/video/BV15e41147EY/?spm_id_from=333.999.0.0)        | ✔️       |   |
 | 0147      | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)         | Linked List        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.bilibili.com/video/BV1Ti4y187pN/?spm_id_from=333.999.0.0)        | ✔️       |   |
-| 0148      | [Sort List](https://leetcode.com/problems/sort-list/)         | Linked List        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.bilibili.com/video/BV1oK411M7fv?from=search&seid=11984020155637605279) [2](https://www.bilibili.com/video/BV1qK4y1e7kw?from=search&seid=11984020155637605279) [3](https://github.com/425776024/easy_leetcode/blob/master/easyleetcode/leetcodes/Leetcode_148_Sort_List.py)        | ✔️       |   |
+| 0148      | [Sort List](https://leetcode.com/problems/sort-list/)         | Divide & Conquer        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.bilibili.com/video/BV1oK411M7fv?from=search&seid=11984020155637605279) [2](https://www.bilibili.com/video/BV1qK4y1e7kw?from=search&seid=11984020155637605279) [3](https://github.com/425776024/easy_leetcode/blob/master/easyleetcode/leetcodes/Leetcode_148_Sort_List.py)        | ✔️       | Top Interview 0109/150  |
 | 0160      | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)         | Linked List        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_0160_Intersection_of_Two_Linked_Lists.ipynb)        | ✔️       |   |
 | 0203      | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)         | Linked List        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.bilibili.com/video/BV1Sz411b7zw/?spm_id_from=333.999.0.0)        | ✔️       |   |
 | 0206      | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)         | Linked List        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.bilibili.com/video/BV16Q4y1M767/?spm_id_from=333.999.0.0)        | ✔️       |   |
@@ -291,6 +291,14 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0039      | [Combination Sum](https://leetcode.com/problems/combination-sum/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=GBKI9VSKdGg)        | ✔️       | Top Interview 0104/150  |
 | 0052      | [N-Queens II](https://leetcode.com/problems/n-queens-ii/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=nalYyLZgvCY)        | ✔️       | Top Interview 0105/150  |
 | 0022      | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/?envType=study-plan-v2&envId=top-interview-150)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=s9fokUqJ76A)        | ✔️       | Top Interview 0106/150  |
+
+
+### Divide & Conquer
+
+| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
+| ------- | --- | --- | --- | --- | --------- | --------- |
+| 0148      | [Sort List](https://leetcode.com/problems/sort-list/)         | Divide & Conquer        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.bilibili.com/video/BV1oK411M7fv?from=search&seid=11984020155637605279) [2](https://www.bilibili.com/video/BV1qK4y1e7kw?from=search&seid=11984020155637605279) [3](https://github.com/425776024/easy_leetcode/blob/master/easyleetcode/leetcodes/Leetcode_148_Sort_List.py)        | ✔️       | Top Interview 0109/150  |
+
 
 ### Dynamic Programming 1D
 
