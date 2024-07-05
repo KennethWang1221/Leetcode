@@ -263,6 +263,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0802      | [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/?envType=study-plan-v2&envId=top-interview-150)         | Binary Search     | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=K-RYzDZkzCI)       |   ✔️   | Top Interview 0113/150 |
+| 0074      | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/submissions/1309992771/?envType=study-plan-v2&envId=top-interview-150)         | Binary Search     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Ber2pi2C0j0)       |   ✔️   | Top Interview 0114/150 |
 
 
 ### Breadth-First Search
