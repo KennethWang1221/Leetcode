@@ -267,6 +267,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0162      | [Find Peak Element](https://leetcode.com/problems/find-peak-element/?envType=study-plan-v2&envId=top-interview-150)         | Binary Search     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=kMzJy9es7Hc)       |   ✔️   | Top Interview 0115/150 |
 | 0033      | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150)         | Binary Search     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=kMzJy9es7Hc)       |   ✔️   | Top Interview 0116/150 |
 | 0034      | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150)         | Binary Search     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=4sQL7R5ySUU)       |   ✔️   | Top Interview 0117/150 |
+| 0153      | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/?envType=study-plan-v2&envId=top-interview-150)         | Binary Search     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=nIVW4P8b1VA)       |   ✔️   | Top Interview 0118/150 |
 
 
 
