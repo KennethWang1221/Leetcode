@@ -210,6 +210,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0703     | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)         | Heap      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=hOjcdrqMoQ8)  | ✔️       |   |
 | 0215     | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)         | Heap / Quick Select      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=XEmy13g1Qxc)  | ✔️       | Top Interview 0120/150  |
 | 0692     | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)         | Heap / Dict      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/zhuifengshen/awesome-leetcode/blob/master/docs/Leetcode_Solutions/Python/0692._Top_K_Frequent_Words.md) [2](https://walkccc.me/LeetCode/problems/0692/)  | Need Investigate       |   |
+| 0502     | [IPO](https://leetcode.com/problems/ipo/description/?envType=study-plan-v2&envId=top-interview-150)         | Heap      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=1IUzNJ6TPEM)  | ✔️   | Top Interview 0121/150  |
 
 ### Graph (Breadth-FS)
 
