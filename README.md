@@ -324,6 +324,8 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0274      | [H-Index](https://leetcode.com/problems/h-index/description/?envType=study-plan-v2&envId=top-interview-150)         | Array / Soring / binary_Search        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://leetcode.com/problems/h-index/solutions/3403785/easy-to-understand-python-solution-with-explanation/)        | ✔️       | Top Interview 0011/150 |
 | 0134      | [Gas_Station](https://leetcode.com/problems/gas-station/description/?envType=study-plan-v2&envId=top-interview-150)         | Greedy        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=lJwbPZGo05A)        | ✔️       | Top Interview 0014/150 |
 | 0135      | [Candy](https://leetcode.com/problems/candy/)         | Greedy / Two Passes of Linear scans       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://leetcode.com/problems/candy/solutions/3205689/135-solution-with-step-by-step-explanation/)        | ✔️       | Top Interview 0015/150 |
+| 0070      | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/?envType=study-plan-v2&envId=top-interview-150)         | Greedy / Two Passes of Linear scans       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=Y0lT9Fck7qI)        | ✔️       | Top Interview 0136/150 |
+
 ### Dynamic Programming 1D (Multiple States)
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
