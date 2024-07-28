@@ -368,6 +368,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0009      | [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/?envType=study-plan-v2&envId=top-interview-150)         | Math       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=yubRKwixN-U/)        | ✔️       | Top Interview 0130/150 |
+| 0066      | [Plus One](https://leetcode.com/problems/plus-one/description/?envType=study-plan-v2&envId=top-interview-150)         | Math       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=jIaA8boiG1s)        | ✔️       | Top Interview 0131/150 |
 
 ### Bit Manipulation
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
