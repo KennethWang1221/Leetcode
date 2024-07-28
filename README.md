@@ -373,6 +373,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0067      | [Add Binary](https://leetcode.com/problems/add-binary/submissions/1325834467/?envType=study-plan-v2&envId=top-interview-150)         | Bit Manipulation         | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=keuWJ47xG8g)        | ✔️       | Top Interview 0124/150   |
+| 0190      | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/?envType=study-plan-v2&envId=top-interview-150)         | Bit Manipulation         | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=UcoN6UjAI64)        | ✔️       | Top Interview 0125/150   |
 
 
 ## Advanced Algorithms
