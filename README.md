@@ -329,6 +329,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0198      | [House Robber](https://leetcode.com/problems/house-robber/description/?envType=study-plan-v2&envId=top-interview-150)         | 1D DP       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=73r3KWiEvyk)        | ✔️       | Top Interview 0137/150 |
 | 0139      | [Word Break](https://leetcode.com/problems/word-break/description/?envType=study-plan-v2&envId=top-interview-150)         | 1D DP       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Sx9NNgInc3A)        | ✔️       | Top Interview 0138/150 |
 | 0322      | [Coin Change](https://leetcode.com/problems/coin-change/?envType=study-plan-v2&envId=top-interview-150)         | 1D DP       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=H9bfqozjoqs)        | ✔️       | Top Interview 0139/150 |
+| 0300      | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/?envType=study-plan-v2&envId=top-interview-150)         | 1D DP       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=cjWnW0hdF1Y)        | ✔️       | Top Interview 0140/150 |
 
 
 ### Dynamic Programming 1D (Multiple States)
