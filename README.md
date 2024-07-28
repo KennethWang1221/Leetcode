@@ -377,6 +377,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0191      | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/?envType=study-plan-v2&envId=top-interview-150)         | Bit Manipulation         | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=5Km3utixwZs)        | ✔️       | Top Interview 0126/150   |
 | 0136      | [Single Number](https://leetcode.com/problems/single-number/description/?envType=study-plan-v2&envId=top-interview-150)         | Bit Manipulation         | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=qMPX1AOa83k)        | ✔️       | Top Interview 0127/150   |
 | 0137      | [Single Number II](https://leetcode.com/problems/single-number-ii/description/?envType=study-plan-v2&envId=top-interview-150)         | Bit Manipulation         | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_0137_Single_Number_II.ipynb)        | ✔️       | Top Interview 0128/150   |
+| 0201      | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/description/?envType=study-plan-v2&envId=top-interview-150)         | Bit Manipulation         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=R3T0olAhUq0)        | ✔️       | Top Interview 0129/150   |
 
 ## Advanced Algorithms
 ### Trie
