@@ -336,6 +336,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0120      | [Triangle](https://leetcode.com/problems/triangle/description/?envType=study-plan-v2&envId=top-interview-150)         | Multidimensional DP       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=OM1MTokvxs4)        | ✔️       | Top Interview 0141/150 |
+| 0064      | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/?envType=study-plan-v2&envId=top-interview-150)         | Multidimensional DP       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=pGMsrvt0fpk)        | ✔️       | Top Interview 0142/150 |
 
 
 ### Dynamic Programming 1D (Multiple States)
