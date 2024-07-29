@@ -357,7 +357,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
-| 0072      | [Edit Distance](https://leetcode.com/problems/edit-distance/)         | DP         | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://turingplanet.org/2020/09/18/leetcode_planning_list/#Array) [2](https://www.youtube.com/watch?v=XYi2-LPrwm4)        | ✔️       | Bottom-up DP   |
+| 0072      | [Edit Distance](https://leetcode.com/problems/edit-distance/)         | Bottom-up DP         | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://turingplanet.org/2020/09/18/leetcode_planning_list/#Array) [2](https://www.youtube.com/watch?v=XYi2-LPrwm4)        | ✔️       | Top Interview 0146/150   |
 
 ### Dynamic Programming 2D (1D Input)
 
