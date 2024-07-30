@@ -35,6 +35,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0289      | [Game of Life](https://leetcode.com/problems/game-of-life/?envType=study-plan-v2&envId=top-interview-150)         | Array / Matrix        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=fei4bJQdBUQ)        | Need Investigate       | Top Interview 0039/150  |
 | 0053      | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/?envType=study-plan-v2&envId=top-interview-150)         | Kadane's Algorithm    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=5WZl3MMT0Eg)        | ✔️      | Top Interview 0111/150  |
 | 0918      | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/description/?envType=study-plan-v2&envId=top-interview-150)         | Kadane's Algorithm    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=fxT9KjakYPM)        | ✔️      | Top Interview 0112/150  |
+| 1929      | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/)         | Array    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=68isPRHgcFQ)        | ✔️      |  |
 
 ### String
 
