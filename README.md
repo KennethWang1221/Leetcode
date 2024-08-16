@@ -333,6 +333,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0322      | [Coin Change](https://leetcode.com/problems/coin-change/?envType=study-plan-v2&envId=top-interview-150)         | 1D Top-Down DP       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=H9bfqozjoqs)        | ✔️       | Top Interview 0139/150 |
 | 0300      | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/?envType=study-plan-v2&envId=top-interview-150)         | 1D Bottom-UP DP       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=cjWnW0hdF1Y)        | ✔️       | Top Interview 0140/150 |
 | 0746      | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)         | 1D Bottom-UP DP       | ![Easy](https://img.shields.io/badge/-Easy-success)   | [1](https://www.youtube.com/watch?v=ktmzAZWkEZ0)        | ✔️       |  |
+| 0091      | [Decode Ways](https://leetcode.com/problems/decode-ways/description/)         | 1D Bottom-UP DP / Recursive      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=6aEyTjOwlJU)        | ✔️       |  |
 
 ### Dynamic Programming Multidimensional DP
 
