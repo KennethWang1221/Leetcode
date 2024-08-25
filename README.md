@@ -336,6 +336,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0746      | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)         | 1D Bottom-UP DP       | ![Easy](https://img.shields.io/badge/-Easy-success)   | [1](https://www.youtube.com/watch?v=ktmzAZWkEZ0)        | ✔️       | Same idea to 0509 / 0070 |
 | 0091      | [Decode Ways](https://leetcode.com/problems/decode-ways/description/)         | 1D Bottom-UP DP / Recursive      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=6aEyTjOwlJU)        | ✔️       |  |
 | 0343      | [Integer Break](https://leetcode.com/problems/integer-break/)         | 1D Bottom-UP DP / Recursive - 1D Top-Down DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=in6QbUPMJ3I)        | ✔️       |  |
+| 0096      | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/description/) | 1D Bottom-UP DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=Ox0TenN3Zpg) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0096.%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md)        | ✔️       |  |
 
 ### Dynamic Programming Multidimensional DP
 
