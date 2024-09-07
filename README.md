@@ -316,6 +316,12 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0108      | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)         | Recursive / Divide & conquer / Binary Search  | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=0K0uCMYq5ng) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0108.将有序数组转换为二叉搜索树.md)      | ✔️       | Top Interview 0108/150  |
 | 0427      | [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/description/?envType=study-plan-v2&envId=top-interview-150)         | Recursive / Divide & conquer / Binary Search  | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=UQ-1sBMV0v4)      | ✔️       | Top Interview 0110/150  |
 
+### Greedy
+
+| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
+| ------- | --- | --- | --- | --- | --------- | --------- |
+| 0455      | [Assign Cookies](https://leetcode.com/problems/assign-cookies/)         | Greedy       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=JW8fgvoxPTg) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0455.%E5%88%86%E5%8F%91%E9%A5%BC%E5%B9%B2.md)       | ✔️       |  |
+
 ### Dynamic Programming 1D
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
