@@ -321,6 +321,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0455      | [Assign Cookies](https://leetcode.com/problems/assign-cookies/)         | Greedy       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=JW8fgvoxPTg) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0455.%E5%88%86%E5%8F%91%E9%A5%BC%E5%B9%B2.md)       | ✔️       |  |
+| 0376      | [Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/)         | Greedy / 2D Bottom-UP DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0376.%E6%91%86%E5%8A%A8%E5%BA%8F%E5%88%97.md)       | ✔️       |  |
 
 ### Dynamic Programming 1D
 
