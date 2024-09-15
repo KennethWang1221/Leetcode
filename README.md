@@ -312,7 +312,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0078      | [Subsets](https://leetcode.com/problems/subsets/description/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=REOH22Xwdkk) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0078.%E5%AD%90%E9%9B%86.md)       | ✔️       |  |
 | 0090      | [SubsetsII](https://leetcode.com/problems/subsets-ii/description/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Vn2v6ajA7U0) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0090.%E5%AD%90%E9%9B%86II.md)       | ✔️       |  |
 | 0491      | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0491.%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97.md)       | ✔️       |  |
-
+| 0037      | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)         | Backtracking        | ![Hard](https://img.shields.io/badge/-Hard-red)  | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0037.%E8%A7%A3%E6%95%B0%E7%8B%AC.md)        | ✔️       |  |
 
 ### Divide & Conquer
 
