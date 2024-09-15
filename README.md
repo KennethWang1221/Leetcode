@@ -309,6 +309,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0093      | [Restore Ip Addresses](https://leetcode.com/problems/restore-ip-addresses/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=61tN4YEdiTM) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0093.%E5%A4%8D%E5%8E%9FIP%E5%9C%B0%E5%9D%80.md)       | ✔️       |  |
 | 0078      | [Subsets](https://leetcode.com/problems/subsets/description/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=REOH22Xwdkk) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0078.%E5%AD%90%E9%9B%86.md)       | ✔️       |  |
 | 0090      | [SubsetsII](https://leetcode.com/problems/subsets-ii/description/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Vn2v6ajA7U0) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0090.%E5%AD%90%E9%9B%86II.md)       | ✔️       |  |
+| 0491      | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0491.%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97.md)       | ✔️       |  |
 
 
 ### Divide & Conquer
