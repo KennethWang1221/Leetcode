@@ -467,7 +467,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0684      | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)         | Graph Problems - Union Find         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=FXWRE67PLL0&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=12)        |        | Need Investigate   |
-| 0323      | [Number of Connected Components in an Undirected Graph](https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/)         | Graph Problems - Union Find         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=8f1XPm4WOUc&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=15)        |        | Need Investigate   |
+| 0323      | [Number of Connected Components in an Undirected Graph](https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/)         | Graph Problems - Union Find         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=8f1XPm4WOUc)        |        | Need Investigate   |
 
 
 ### Topological Sort
