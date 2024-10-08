@@ -258,7 +258,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0695      | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)         | DFS / Same to Leetcode_0200_Number_of_Islands     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=iJGr1OtmH0c)       |    ✔️    | |
 | 0332      | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)         | Backtracking / DFS     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=ZyB_gQ8vqGA) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0332.%E9%87%8D%E6%96%B0%E5%AE%89%E6%8E%92%E8%A1%8C%E7%A8%8B.md)      |    ✔️    |  |
 | 0329      | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)         | DFS     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=wCc_nd-GiEc)       |    ✔️    |  |
-| 0802      | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)         | DFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Re_v0j0CRsg&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=30)       |        | Need Investigate |
+| 0802      | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)         | DFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Re_v0j0CRsg)       |        | Need Investigate |
 
 ## Basic Algorithms
 ### Binary Search
