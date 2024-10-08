@@ -251,7 +251,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0743      | [Network Delay Time](https://leetcode.com/problems/network-delay-time/)         | Djikstra        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=EaphyqKU4PQ)       | ✔️       |   |
 | 0261      | [Graph Valid Tree](https://www.lintcode.com/problem/graph-valid-tree/description)         | DFS        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=bXsUuownnoQ)       | ✔️       |   |
 | 0212      | [Word Search II](https://leetcode.com/problems/word-search-ii/)         | DFS / Trie / Backtracking      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=asbcE9mZz_U)       |        | Top Interview 0099/150  |
-| 1584      | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)         | Minimum Cost Spanning Tree / Prim's Algorithm      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=f7JOBJIC-NA&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=17)       |    ✔️    | Recap heapq & Learn Prim's Algorithm |
+| 1584      | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)         | Minimum Cost Spanning Tree / Prim's Algorithm / Recap Heap      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=f7JOBJIC-NA)       |    ✔️    |  |
 | 1905      | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/description/)         | DFS      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=mLpW3qfbNJ8)       |    ✔️    | |
 | 0778      | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)         | Dijkstra's Algorithm      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=amvrKlMLuGY&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=19)       |    ✔️    |  |
 | 0130      | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)         | Reverse thinking / Graph DFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=9z2BunfoZ5Y)       |    ✔️    | Top Interview 0090/150 |
@@ -472,7 +472,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 ### Topological Sort
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
-| 0269      | [Alien Dictionary - Topological Sort](https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/)         | Graph Problems - Graph         | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=6kTZYvNNyps)        |        | Need Investigate   |
+| 0269      | [Alien Dictionary - Topological Sort](https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/)         | Graph - Topological Sort        | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=6kTZYvNNyps)        |        | Need Investigate   |
 
 
 ### Boyer-Moore Voting Algorithm
