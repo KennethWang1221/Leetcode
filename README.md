@@ -219,7 +219,6 @@ This repo records coding problems from leetcode. All problems are organized by t
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
-| 0127      | [Word Ladder](https://leetcode.com/problems/word-ladder/)         | HashMap        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=h9iTnkgv05E&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=7)        | ✔️       |   |
 | 0200      | [Number of Islands](https://leetcode.com/problems/number-of-islands/)         | BFS / DFS       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=pV2kpPD66nE) [2](https://github.com/neetcode-gh/leetcode/blob/main/python/0200-number-of-islands.py)        | ✔️       | Top Interview 0089/150  |
 | 0207      | [Course Schedule](https://leetcode.com/problems/course-schedule/)         | BFS / Iterative       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=EgI5nU9etnU)        | ✔️       | Top Interview 0093/150  |
 | 0210      | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)         | BFS / Iterative       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Akt3glAwyfY)        |    ✔️    | Top Interview 0094/150  |
