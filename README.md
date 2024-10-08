@@ -472,7 +472,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 ### Topological Sort
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
-| 0269      | [Alien Dictionary - Topological Sort](https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/)         | Graph Problems - Graph         | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=6kTZYvNNyps&list=PLot-Xpze53ldBT_7QA8NVot219jFNr_GI&index=16)        |        | Need Investigate   |
+| 0269      | [Alien Dictionary - Topological Sort](https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/)         | Graph Problems - Graph         | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=6kTZYvNNyps)        |        | Need Investigate   |
 
 
 ### Boyer-Moore Voting Algorithm
