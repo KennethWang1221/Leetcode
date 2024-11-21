@@ -490,4 +490,4 @@ This repo records coding problems from leetcode. All problems are organized by t
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
-| 0001      | [Softmax Activation Function Implementation](https://www.deep-ml.com/problem/Softmax%20Activation%20Function%20Implementation)         | ML       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://chatgpt.com/share/673042d4-32e8-8009-b05c-869918af61b8)        | ✔️       | |
+| 0023      | [Softmax Activation Function Implementation](https://www.deep-ml.com/problem/Softmax%20Activation%20Function%20Implementation)         | ML       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://chatgpt.com/share/673042d4-32e8-8009-b05c-869918af61b8)        | ✔️       | |
