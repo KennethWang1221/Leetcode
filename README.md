@@ -492,3 +492,9 @@ This repo records coding problems from leetcode. All problems are organized by t
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0023      | [Softmax Activation Function Implementation](https://www.deep-ml.com/problem/Softmax%20Activation%20Function%20Implementation)         | ML       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://chatgpt.com/share/673042d4-32e8-8009-b05c-869918af61b8)        | ✔️       | |
 | 0047      | [Implement Gradient Descent Variants with MSE Loss](https://www.deep-ml.com/problem/Gradient%20Descent%20Variants)         | ML / MLE (CCE) and MSE Gradient Descent / Maximum Likelihood Estimation (MLE) - Cross-Entropy / perform MLE by optimizing parameters using gradient descent    | ![Medium](https://img.shields.io/badge/-Medium-warning)    |        | ✔️       | |
+
+### Large Language Models
+
+| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
+| ------- | --- | --- | --- | --- | --------- | --------- |
+| 0001      | [Train LLM](./data_structures/LLM_0001_Train_LLM.ipynb)         | Simple code       | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
