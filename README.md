@@ -496,6 +496,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0009      | [Matrix times Matrix](https://www.deep-ml.com/problem/Matrix%20times%20Matrix)         | ML-Linear Algebra   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 | 0001      | [Matrix times Vector](https://www.deep-ml.com/problem/Matrix%20times%20Vector)         | ML-Linear Algebra   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 | 0027      | [Transformation Matrix from Basis B to C](https://www.deep-ml.com/problem/Transformation%20Matrix%20from%20Basis%20B%20to%20C)         | ML-Linear Algebra / Matrix Inverse   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
+| 0003      | [Reshape Matrix](https://www.deep-ml.com/problem/Reshape%20Matrix)         | ML-Linear Algebra   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 
 
 ### Large Language Models
