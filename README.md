@@ -493,6 +493,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0023      | [Softmax Activation Function Implementation](https://www.deep-ml.com/problem/Softmax%20Activation%20Function%20Implementation)         | ML / Softmax and Sigmoid       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://chatgpt.com/share/673042d4-32e8-8009-b05c-869918af61b8)        | ✔️       | |
 | 0047      | [Gradient Descent Variants](https://www.deep-ml.com/problem/Gradient%20Descent%20Variants)         | Maximum Likelihood Estimation (MLE) - Cross-Entropy and MSE Gradient Descent / perform MLE by optimizing parameters using gradient descent    | ![Medium](https://img.shields.io/badge/-Medium-warning)    |        | ✔️       | |
 | 0022      | [Sigmoid Activation Function Implementation](https://www.deep-ml.com/problem/Sigmoid%20Activation%20Function%20Understanding)         | Explaination of MLE CCE and BCE    | ![Medium](https://img.shields.io/badge/-Medium-warning)    |        | ✔️       | |
+| 0009      | [Matrix times Matrix](https://www.deep-ml.com/problem/Matrix%20times%20Matrix)         |    | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 
 
 ### Large Language Models
