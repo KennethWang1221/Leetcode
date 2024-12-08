@@ -499,6 +499,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0003      | [Reshape Matrix](https://www.deep-ml.com/problem/Reshape%20Matrix)         | ML-Linear Algebra   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 | 0002      | [Transpose of a Matrix](https://www.deep-ml.com/problem/Transpose%20of%20a%20Matrix)         | ML-Linear Algebra   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 | 0004      | [Calculate Mean and Std by Row or Column](https://www.deep-ml.com/problem/Calculate%20Mean%20by%20Row%20or%20Column)         | ML-Linear Algebra   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
+| 0078      | [LayerNorm BatchNorm](./data_structures/ML_0078_LayerNorm_BatchNorm.ipynb)         | ML   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 
 
 ### Large Language Models
