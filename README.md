@@ -498,6 +498,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0027      | [Transformation Matrix from Basis B to C](https://www.deep-ml.com/problem/Transformation%20Matrix%20from%20Basis%20B%20to%20C)         | ML-Linear Algebra / Matrix Inverse   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 | 0003      | [Reshape Matrix](https://www.deep-ml.com/problem/Reshape%20Matrix)         | ML-Linear Algebra   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 | 0002      | [Transpose of a Matrix](https://www.deep-ml.com/problem/Transpose%20of%20a%20Matrix)         | ML-Linear Algebra   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
+| 0004      | [Calculate Mean and Std by Row or Column](https://www.deep-ml.com/problem/Calculate%20Mean%20by%20Row%20or%20Column)         | ML-Linear Algebra   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 
 
 ### Large Language Models
