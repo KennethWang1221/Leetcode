@@ -233,6 +233,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0909      | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/?envType=study-plan-v2&envId=top-interview-150)         | BFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=6lH4nO3JfLk)   |  ✔️       | Top Interview 0095/150  |
 | 0433      | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/?envType=study-plan-v2&envId=top-interview-150)         | BFS / DFS / same idea as Leetcode_0127    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://leetcode.com/problems/minimum-genetic-mutation/solutions/2097023/python-3-10-dfs-bfs-very-short/?envType=study-plan-v2&envId=top-interview-150)   |  ✔️       | Top Interview 0096/150  |
 | 0127      | [Word Ladder](https://leetcode.com/problems/word-ladder/description/?envType=study-plan-v2&envId=top-interview-150)         | BFS    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=h9iTnkgv05E)   |  ✔️       | Top Interview 0097/150  |
+| 0126      | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/)         | BFS    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://leetcode.com/problems/word-ladder-ii/solutions/2422401/46ms-python-97-faster-working-multiple-solutions-95-memory-efficient-solution/)   |  ✔️       |  |
 
 ### Graph (Best-FS)
 
