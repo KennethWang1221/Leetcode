@@ -503,6 +503,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0004      | [Calculate Mean and Std by Row or Column](https://www.deep-ml.com/problem/Calculate%20Mean%20by%20Row%20or%20Column)         | ML-Linear Algebra   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 | 0078      | [LayerNorm BatchNorm](./data_structures/ML_0078_LayerNorm_BatchNorm.ipynb)         | ML   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 | 0005      | [Scalar Multiplication of a Matrix](./data_structures/ML_0005_Scalar_Multiplication_of_a_Matrix.ipynb)         | ML - Linear Algebra   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
+| 0014      | [Linear Regression Using Normal Equation](./data_structures/ML_0014_Linear_Regression_Using_Normal_Equation.ipynb)         | ML - Linear Algebra / Explain np.linalg.inv   | ![Easy](https://img.shields.io/badge/-Easy-success)    |        | ✔️       | |
 
 
 ### Large Language Models
