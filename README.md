@@ -36,7 +36,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0289      | [Game of Life](https://leetcode.com/problems/game-of-life/?envType=study-plan-v2&envId=top-interview-150)         | Array / Matrix        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=fei4bJQdBUQ)        | Need Investigate       | Top Interview 0039/150  |
 | 0918      | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/description/?envType=study-plan-v2&envId=top-interview-150)         | Kadane's Algorithm    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=fxT9KjakYPM)        | ✔️      | Top Interview 0112/150  |
 | 1929      | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/description/)         | Array    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=68isPRHgcFQ)        | ✔️      |  |
-| 2357      | [Make Array zero by Substracing Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)         | Array    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures//Leetcode_2357_Make_Array_zero_by_Substracing_Equal_Amounts.ipynb)        | ✔️      | Top Amazon Questions  |
+| 2357      | [Make Array zero by Substracing Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/)         | Array    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures//Leetcode_2357_Make_Array_zero_by_Substracing_Equal_Amounts.ipynb)        | ✔️      | Amazon  |
 
 ### String
 
@@ -204,8 +204,8 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0669     | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)         | Recursion       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=jwt5mTjEXGc) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0669.修剪二叉搜索树.md)  | ✔️       |   |
 | 0700     | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)         | Recursion / Iterative      | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0700.二叉搜索树中的搜索.md)  | ✔️       |   |
 | 0701     | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)         | Recursion / Iterative      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0701.二叉搜索树中的插入操作.md)  | ✔️       |   |
-### Heap
 
+### Heap
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0295     | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)         | Heap / Recap Heap can see Leetcode_1584      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=itmhHWaHupI) [2](./data_structures/Leetcode_0295_Find_Median_from_Data_Stream.ipynb)  | ✔️       | Top Interview 0123/150   |
@@ -215,6 +215,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0692     | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)         | Heap / Dict      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/zhuifengshen/awesome-leetcode/blob/master/docs/Leetcode_Solutions/Python/0692._Top_K_Frequent_Words.md) [2](https://walkccc.me/LeetCode/problems/0692/)  | Need Investigate       |   |
 | 0502     | [IPO](https://leetcode.com/problems/ipo/description/?envType=study-plan-v2&envId=top-interview-150)         | Heap      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=1IUzNJ6TPEM)  | ✔️   | Top Interview 0121/150  |
 | 0373     | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/ipo/description/?envType=study-plan-v2&envId=top-interview-150)         | Heap      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/solutions/3687209/easy-heap-solution-beats-93-python3-java-c/?envType=study-plan-v2&envId=top-interview-150)  | ✔️   | Top Interview 0122/150  |
+| 0373     | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)         | Heap / List     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=2g_b1aYTHeg)  | ✔️   | Amazon  |
 
 ### Graph (Breadth-FS)
 
