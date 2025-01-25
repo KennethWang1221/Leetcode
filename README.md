@@ -94,7 +94,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0725      | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)         | Linked List        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0725_Split_Linked_List_in_Parts.ipynb)        | ✔️       |   |
 | 0876      | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)         | Linked List        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.bilibili.com/video/BV1Pz41187WS/?spm_id_from=333.999.0.0)        | ✔️       |   |
 | 0138      | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/?envType=study-plan-v2&envId=top-interview-150/)         | Linked List        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=5Y2EiZST97Y)        | ✔️       | Top Interview 0065/150  |
-| 0146      | [LRU Cache](https://leetcode.com/problems/lru-cache/description/?envType=study-plan-v2&envId=top-interview-150)         | Linked List        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=7ABFKPK2hD4)        | ✔️       | Top Interview 0021/150  |
+| 0146      | [LRU Cache](https://leetcode.com/problems/lru-cache/description/?envType=study-plan-v2&envId=top-interview-150)         | Linked List        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=7ABFKPK2hD4)        | ✔️       | Top Interview 0021/150 / Amazon |
 
 ### Queue
 
