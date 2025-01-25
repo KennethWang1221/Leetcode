@@ -215,7 +215,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0692     | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)         | Heap / Dict      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/zhuifengshen/awesome-leetcode/blob/master/docs/Leetcode_Solutions/Python/0692._Top_K_Frequent_Words.md) [2](https://walkccc.me/LeetCode/problems/0692/)  | Need Investigate       |   |
 | 0502     | [IPO](https://leetcode.com/problems/ipo/description/?envType=study-plan-v2&envId=top-interview-150)         | Heap      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=1IUzNJ6TPEM)  | ✔️   | Top Interview 0121/150  |
 | 0373     | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/ipo/description/?envType=study-plan-v2&envId=top-interview-150)         | Heap      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/solutions/3687209/easy-heap-solution-beats-93-python3-java-c/?envType=study-plan-v2&envId=top-interview-150)  | ✔️   | Top Interview 0122/150  |
-| 0373     | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)         | Heap / List     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=2g_b1aYTHeg)  | ✔️   | Amazon  |
+| 0767     | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)         | Heap / List     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=2g_b1aYTHeg)  | ✔️   | Amazon  |
 
 ### Graph (Breadth-FS)
 
@@ -236,6 +236,8 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0433      | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/?envType=study-plan-v2&envId=top-interview-150)         | BFS / DFS / same idea as Leetcode_0127    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://leetcode.com/problems/minimum-genetic-mutation/solutions/2097023/python-3-10-dfs-bfs-very-short/?envType=study-plan-v2&envId=top-interview-150)   |  ✔️       | Top Interview 0096/150  |
 | 0127      | [Word Ladder](https://leetcode.com/problems/word-ladder/description/?envType=study-plan-v2&envId=top-interview-150)         | BFS    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=h9iTnkgv05E)   |  ✔️       | Top Interview 0097/150  |
 | 0126      | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/)         | BFS    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://leetcode.com/problems/word-ladder-ii/solutions/2422401/46ms-python-97-faster-working-multiple-solutions-95-memory-efficient-solution/)   |  ✔️       |  |
+| 0863      | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/?envType=problem-list-v2&envId=7p5x763&sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJGUkVRVUVOQ1kifV0%3D&page=1)         | BFS    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0863_All_Nodes_Distance_K_in_Binary_Tree.ipynb)   |  ✔️       | Amazon |
+
 
 ### Graph (Best-FS)
 
@@ -261,8 +263,9 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0695      | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)         | DFS / BFS / Same to Leetcode_0200_Number_of_Islands     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=iJGr1OtmH0c)       |    ✔️    | |
 | 0332      | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)         | Backtracking / DFS     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=ZyB_gQ8vqGA) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0332.%E9%87%8D%E6%96%B0%E5%AE%89%E6%8E%92%E8%A1%8C%E7%A8%8B.md)      |    ✔️    |  |
 | 0329      | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)         | DFS     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=wCc_nd-GiEc)       |    ✔️    |  |
-| 0802      | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)         | DFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Re_v0j0CRsg)       |        | Need Investigate |
-| 0140      | [Word Break II](https://leetcode.com/problems/word-break-ii/description/)         | DFS / Backtracking     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=QgLKdluDo08)       |        | ✔️ |
+| 0802      | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)         | DFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Re_v0j0CRsg)       | Need Investigate       |  |
+| 0140      | [Word Break II](https://leetcode.com/problems/word-break-ii/description/)         | DFS / Backtracking     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=QgLKdluDo08)       | ✔️  | Amazon |
+
 
 ## Basic Algorithms
 ### Binary Search
