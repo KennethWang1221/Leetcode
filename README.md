@@ -45,14 +45,14 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0719      | [Find K th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=bQ-QcFKwsZc)        | ✔️      | Amazon  |
 | 0818      | [Race Car](https://leetcode.com/problems/race-car/description/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_0818_Race_Car.ipynb)        | ✔️      | Amazon  |
 | 0828      | [Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/description/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_0828_Count_Unique_Characters_of_All_Substrings_of_a_Given_String.ipynb)        | ✔️      | Amazon  |
-| 1268      | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)         | Binary Search    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1268_Search_Suggestions_System.ipynb)        | ✔️      | Amazon  |
 | 1291      | [Sequential Digits](https://leetcode.com/problems/sequential-digits/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1291_Sequential_Digits.ipynb)        | ✔️      | Amazon  |
 | 1603      | [Design Parking System](https://leetcode.com/problems/design-parking-system/description/)         | Array    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_1603_Design_Parking_System.ipynb)        | ✔️      | Amazon  |
 | 1710      | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)         | Array    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_1710_Maximum_Units_on_a_Truck.ipynb)        | ✔️      | Amazon  |
 | 1864      | [Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1864_Minimum_Number_of_Swaps_to_Make_the_Binary_String_Alternating.ipynb)        | ✔️      | Amazon  |
 | 2055      | [Plates Between Candles](https://leetcode.com/problems/plates-between-candles/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2055_Plates_Between_Candles.ipynb)        | ✔️      | Amazon  |
 | 2104      | [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2104_Sum_of_Subarray_Ranges.ipynb)        | ✔️      | Amazon  |
-| 2104      | [Sum of Subarray Ranges](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)         | Binary Search Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2193_Minimum_Number_of_Moves_to_Make_Palindrome.ipynb)        | ✔️      | Amazon  |
+| 2272      | [Substring with Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2272_Substring_with_Largest_Variance.ipynb)        | ✔️      | Amazon  |
+
 
 ### String
 
@@ -303,8 +303,8 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0034      | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150)         | Binary Search     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=4sQL7R5ySUU)       |   ✔️   | Top Interview 0117/150 |
 | 0153      | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/?envType=study-plan-v2&envId=top-interview-150)         | Binary Search     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=nIVW4P8b1VA)       |   ✔️   | Top Interview 0118/150 |
 | 0004      | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=study-plan-v2&envId=top-interview-150)         | Binary Search     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=q6IEA26hvXc)       |   ✔️   | Top Interview 0119/150 |
-
-
+| 2104      | [Sum of Subarray Ranges](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)         | Binary Search Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2193_Minimum_Number_of_Moves_to_Make_Palindrome.ipynb)        | ✔️      | Amazon  |
+| 1268      | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)         | Binary Search    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1268_Search_Suggestions_System.ipynb)        | ✔️      | Amazon  |
 
 ### Breadth-First Search
 
