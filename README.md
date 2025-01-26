@@ -44,6 +44,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 2100      | [Find Good Days To Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/description/?envType=problem-list-v2&envId=7p5x763&sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJGUkVRVUVOQ1kifV0%3D&page=1)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2100_Find_Good_Days_To_Rob_the_Bank.ipynb)        | ✔️      | Amazon  |
 | 0719      | [Find K th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=bQ-QcFKwsZc)        | ✔️      | Amazon  |
 | 0818      | [Race Car](https://leetcode.com/problems/race-car/description/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_0818_Race_Car.ipynb)        | ✔️      | Amazon  |
+| 0828      | [Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/description/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_0828_Count_Unique_Characters_of_All_Substrings_of_a_Given_String.ipynb)        | ✔️      | Amazon  |
 
 ### String
 
