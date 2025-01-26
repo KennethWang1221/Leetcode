@@ -48,6 +48,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1268      | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)         | Binary Search    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1268_Search_Suggestions_System.ipynb)        | ✔️      | Amazon  |
 | 1291      | [Sequential Digits](https://leetcode.com/problems/sequential-digits/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1291_Sequential_Digits.ipynb)        | ✔️      | Amazon  |
 | 1603      | [Design Parking System](https://leetcode.com/problems/design-parking-system/description/)         | Array    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_1603_Design_Parking_System.ipynb)        | ✔️      | Amazon  |
+| 1710      | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)         | Array    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_1710_Maximum_Units_on_a_Truck.ipynb)        | ✔️      | Amazon  |
 
 ### String
 
