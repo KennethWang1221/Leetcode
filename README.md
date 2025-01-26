@@ -45,6 +45,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0719      | [Find K th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=bQ-QcFKwsZc)        | ✔️      | Amazon  |
 | 0818      | [Race Car](https://leetcode.com/problems/race-car/description/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_0818_Race_Car.ipynb)        | ✔️      | Amazon  |
 | 0828      | [Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/description/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_0828_Count_Unique_Characters_of_All_Substrings_of_a_Given_String.ipynb)        | ✔️      | Amazon  |
+| 1268      | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1268_Search_Suggestions_System.ipynb)        | ✔️      | Amazon  |
 
 ### String
 
