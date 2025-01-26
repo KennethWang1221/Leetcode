@@ -275,6 +275,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0329      | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)         | DFS     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=wCc_nd-GiEc)       |    ✔️    |  |
 | 0802      | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)         | DFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Re_v0j0CRsg)       | Need Investigate       |  |
 | 0140      | [Word Break II](https://leetcode.com/problems/word-break-ii/description/)         | DFS / Backtracking     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=QgLKdluDo08)       | ✔️  | Amazon |
+| 0472      | [Concatenated Words](https://leetcode.com/problems/concatenated-words/description/)         | DFS     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=iHp7fjw1R28)       | ✔️  | Amazon |
 
 
 ## Basic Algorithms
