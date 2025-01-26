@@ -50,6 +50,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1603      | [Design Parking System](https://leetcode.com/problems/design-parking-system/description/)         | Array    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_1603_Design_Parking_System.ipynb)        | ✔️      | Amazon  |
 | 1710      | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/description/)         | Array    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_1710_Maximum_Units_on_a_Truck.ipynb)        | ✔️      | Amazon  |
 | 1864      | [Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1864_Minimum_Number_of_Swaps_to_Make_the_Binary_String_Alternating.ipynb)        | ✔️      | Amazon  |
+| 2055      | [Plates Between Candles](https://leetcode.com/problems/plates-between-candles/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2055_Plates_Between_Candles.ipynb)        | ✔️      | Amazon  |
 
 ### String
 
