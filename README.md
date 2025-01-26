@@ -52,6 +52,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1864      | [Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1864_Minimum_Number_of_Swaps_to_Make_the_Binary_String_Alternating.ipynb)        | ✔️      | Amazon  |
 | 2055      | [Plates Between Candles](https://leetcode.com/problems/plates-between-candles/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2055_Plates_Between_Candles.ipynb)        | ✔️      | Amazon  |
 | 2104      | [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2104_Sum_of_Subarray_Ranges.ipynb)        | ✔️      | Amazon  |
+| 2104      | [Sum of Subarray Ranges](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)         | Binary Search Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2193_Minimum_Number_of_Moves_to_Make_Palindrome.ipynb)        | ✔️      | Amazon  |
 
 ### String
 
