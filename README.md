@@ -47,6 +47,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0828      | [Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/description/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_0828_Count_Unique_Characters_of_All_Substrings_of_a_Given_String.ipynb)        | ✔️      | Amazon  |
 | 1268      | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)         | Binary Search    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1268_Search_Suggestions_System.ipynb)        | ✔️      | Amazon  |
 | 1291      | [Sequential Digits](https://leetcode.com/problems/sequential-digits/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1291_Sequential_Digits.ipynb)        | ✔️      | Amazon  |
+| 1603      | [Design Parking System](https://leetcode.com/problems/design-parking-system/description/)         | Array    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_1603_Design_Parking_System.ipynb)        | ✔️      | Amazon  |
 
 ### String
 
