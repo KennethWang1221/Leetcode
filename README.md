@@ -170,6 +170,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0290      | [Word Pattern](https://leetcode.com/problems/word-pattern/)         | HashMap       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=W_akoecmCbM)        | ✔️       | Top Interview 0042/150 | same solution Leetcode_0205_Isomorphic_Strings   |
 | 0049      | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/?envType=study-plan-v2&envId=top-interview-150)         | HashMap       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=vzdNOK2oB2E) [2](https://leetcode.com/problems/group-anagrams/solutions/2384037/python-easily-understood-hash-table-fast-simple/?envType=study-plan-v2&envId=top-interview-150)        | ✔️        Top Interview 0044/150  |
 | 0219      | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/?envType=study-plan-v2&envId=top-interview-150)         | HashMap / Sliding Window / Add HashMap DIY method, similar to Leetcode_0217_Contains_Duplicate      | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=ypn0aZ0nrL4) | ✔️       | Top Interview 0047/150 |
+| 2262      | [Total Appeal of a String](https://leetcode.com/problems/total-appeal-of-a-string/description/)         | HashMap      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2262_Total_Appeal_of_a_String.ipynb) | ✔️       | Amazon |
 
 ### Tree
 
