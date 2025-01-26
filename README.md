@@ -51,7 +51,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1864      | [Minimum Number of Swaps to Make the Binary String Alternating](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1864_Minimum_Number_of_Swaps_to_Make_the_Binary_String_Alternating.ipynb)        | ✔️      | Amazon  |
 | 2055      | [Plates Between Candles](https://leetcode.com/problems/plates-between-candles/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2055_Plates_Between_Candles.ipynb)        | ✔️      | Amazon  |
 | 2104      | [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2104_Sum_of_Subarray_Ranges.ipynb)        | ✔️      | Amazon  |
-| 2272      | [Substring with Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2272_Substring_with_Largest_Variance.ipynb)        | ✔️      | Amazon  |
+| 2281      | [Sum of total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/description/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2281_Sum_of_total_Strength_of_Wizards.ipynb)        | ✔️      | Amazon  |
 
 
 ### String
@@ -171,6 +171,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0049      | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/?envType=study-plan-v2&envId=top-interview-150)         | HashMap       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=vzdNOK2oB2E) [2](https://leetcode.com/problems/group-anagrams/solutions/2384037/python-easily-understood-hash-table-fast-simple/?envType=study-plan-v2&envId=top-interview-150)        | ✔️        Top Interview 0044/150  |
 | 0219      | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/?envType=study-plan-v2&envId=top-interview-150)         | HashMap / Sliding Window / Add HashMap DIY method, similar to Leetcode_0217_Contains_Duplicate      | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=ypn0aZ0nrL4) | ✔️       | Top Interview 0047/150 |
 | 2262      | [Total Appeal of a String](https://leetcode.com/problems/total-appeal-of-a-string/description/)         | HashMap      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2262_Total_Appeal_of_a_String.ipynb) | ✔️       | Amazon |
+| 2272      | [Substring with Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)         | Hashset    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2272_Substring_with_Largest_Variance.ipynb)        | ✔️      | Amazon  |
 
 ### Tree
 
