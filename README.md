@@ -52,6 +52,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 2055      | [Plates Between Candles](https://leetcode.com/problems/plates-between-candles/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2055_Plates_Between_Candles.ipynb)        | ✔️      | Amazon  |
 | 2104      | [Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2104_Sum_of_Subarray_Ranges.ipynb)        | ✔️      | Amazon  |
 | 2281      | [Sum of total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/description/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2281_Sum_of_total_Strength_of_Wizards.ipynb)        | ✔️      | Amazon  |
+| 1492      | [Sum of total Strength of Wizards](https://leetcode.com/problems/the-kth-factor-of-n/description/?envType=study-plan-v2&envId=amazon-spring-23-high-frequency)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1492_The_kth_Factor_of_n.ipynb)        | ✔️      | Amazon  |
 
 
 ### String
