@@ -54,6 +54,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 2281      | [Sum of total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards/description/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2281_Sum_of_total_Strength_of_Wizards.ipynb)        | ✔️      | Amazon  |
 | 1492      | [Sum of total Strength of Wizards](https://leetcode.com/problems/the-kth-factor-of-n/description/?envType=study-plan-v2&envId=amazon-spring-23-high-frequency)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1492_The_kth_Factor_of_n.ipynb)        | ✔️      | Amazon  |
 | 3371      | [Identify the Largest Outlier in an Array](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_3371_Identify_the_Largest_Outlier_in_an_Array.ipynb)        | ✔️      | Amazon  |
+| 3104      | [Find Longest Self Contained Substring](https://leetcode.com/problems/find-longest-self-contained-substring/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_3104_Find_Longest_Self_Contained_Substring.ipynb)        | ✔️      | Amazon  |
 
 
 ### String
