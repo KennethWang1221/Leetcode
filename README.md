@@ -299,6 +299,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0140      | [Word Break II](https://leetcode.com/problems/word-break-ii/description/)         | DFS / Backtracking     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=QgLKdluDo08)       | ✔️  | Amazon |
 | 0472      | [Concatenated Words](https://leetcode.com/problems/concatenated-words/description/)         | DFS     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=iHp7fjw1R28)       | ✔️  | Amazon |
 | 0926      | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | DP + DFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=tMq9z5k3umQ)       | ✔️  | Amazon |
+| 0901      | [Online Stock Span](https://leetcode.com/problems/online-stock-span/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Monotonic Stack     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=slYh0ZNEqSw)       | ✔️  | Amazon |
 
 
 ## Basic Algorithms
