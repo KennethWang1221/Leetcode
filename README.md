@@ -180,6 +180,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 2262      | [Total Appeal of a String](https://leetcode.com/problems/total-appeal-of-a-string/description/)         | HashMap      | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2262_Total_Appeal_of_a_String.ipynb) | ✔️       | Amazon |
 | 2272      | [Substring with Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)         | Hashset    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2272_Substring_with_Largest_Variance.ipynb)        | ✔️      | Amazon  |
 | 1152      | [Analyze User Website Visit Pattern](./data_structures/Leetcode_1152_Analyze_User_Website_Visit_Pattern.ipynb)         | Hashset    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1152_Analyze_User_Website_Visit_Pattern.ipynb)        | ✔️      | Amazon  |
+| 0525      | [Contiguous Array](https://leetcode.com/problems/contiguous-array/)         | Hashset    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=agB1LyObUNE)        | ✔️      | Amazon  |
 
 ### Tree
 
