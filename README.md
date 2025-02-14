@@ -253,6 +253,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0621      | [Task Scheduler](https://leetcode.com/problems/task-scheduler/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Max Heap / Greedy / Hashset    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=s8p8ukTyA2I) [2](./data_structures/Leetcode_0621_Task_Scheduler.ipynb)        | ✔️      | Amazon  |
 | 1642      | [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)         | Max Heap / Greedy    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=zyTeznvXCtg)        | ✔️      | Amazon  |
 | 0407      | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/)         | Max Heap   | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_0407_Trapping_Rain_Water_II.ipynb)        | ✔️      | Amazon  |
+| 0378      | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Max Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0378_Kth_Smallest_Element_in_a_Sorted_Matrix.ipynb)        | ✔️      | Amazon  |
 
 ### Graph (Breadth-FS)
 
