@@ -252,6 +252,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 2102     | [Sequentially Ordinal Rank Tracker](https://leetcode.com/problems/sequentially-ordinal-rank-tracker/description/?envType=problem-list-v2&envId=7p5x763&sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJGUkVRVUVOQ1kifV0%3D&page=1)         | Heap     | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2102_Sequentially_Ordinal_Rank_Tracker.ipynb)  | ✔️   | Amazon  |
 | 0621      | [Task Scheduler](https://leetcode.com/problems/task-scheduler/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Max Heap / Greedy / Hashset    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=s8p8ukTyA2I) [2](./data_structures/Leetcode_0621_Task_Scheduler.ipynb)        | ✔️      | Amazon  |
 | 1642      | [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)         | Max Heap / Greedy    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=zyTeznvXCtg)        | ✔️      | Amazon  |
+| 0407      | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/)         | Max Heap   | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_0407_Trapping_Rain_Water_II.ipynb)        | ✔️      | Amazon  |
 
 ### Graph (Breadth-FS)
 
