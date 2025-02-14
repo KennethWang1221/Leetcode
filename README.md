@@ -87,6 +87,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0273      | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/submissions/1520501960/?envType=problem-list-v2&envId=7p5x763&sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJGUkVRVUVOQ1kifV0%3D&page=1)         | String       | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=SCtIlKd3mDM)        | ✔️  | Amazon  |
 | 1768      | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/description/)         | String       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_1768_Merge_Strings_Alternately.ipynb)        | ✔️  | Amazon  |
 | 0007      | [Reverse Integer](https://leetcode.com/problems/reverse-integer/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | String       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=HAgLH58IgJQ)        | ✔️  | Amazon  |
+| 0187      | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)         | String       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=FzTYfsmtOso)        | ✔️  | Amazon  |
 
 
 ### Linked List
