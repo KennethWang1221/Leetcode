@@ -308,6 +308,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0926      | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | DP + DFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=tMq9z5k3umQ)       | ✔️  | Amazon |
 | 0901      | [Online Stock Span](https://leetcode.com/problems/online-stock-span/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Monotonic Stack     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=slYh0ZNEqSw)       | ✔️  | Amazon |
 | 0907      | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Monotonic Stack     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=aX1F2-DrBkQ)       | ✔️  | Amazon |
+| 0959      | [Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/description/)         | DFS     | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=j8KrBYIxHK8)       | ✔️  | Amazon |
 
 
 ## Basic Algorithms
