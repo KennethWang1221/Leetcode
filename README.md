@@ -397,6 +397,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0738      | [Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/description/)         | Greedy / Brute-Force       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0738.%E5%8D%95%E8%B0%83%E9%80%92%E5%A2%9E%E7%9A%84%E6%95%B0%E5%AD%97.md)     | ✔️       |   |
 | 0968      | [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/)         | Greedy / Recursive       | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0968.%E7%9B%91%E6%8E%A7%E4%BA%8C%E5%8F%89%E6%A0%91.md)     | ✔️       |   |
 | 2214      | [Minimum Health to Beat Game](./data_structures/Leetcode_2214_Minimum_Health_to_Beat_Game.ipynb)         | Greedy       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2214_Minimum_Health_to_Beat_Game.ipynb)     | ✔️       | Amazon  |
+| 0252      | [Meeting Rooms I](https://leetcode.com/problems/meeting-rooms/description/)         | Intervals   | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_0252_Meeting_Rooms.ipynb) [2](https://www.youtube.com/watch?v=PaJxqZVPhbg)        | ✔️      | Amazon  |
 
 ### Dynamic Programming 1D
 
