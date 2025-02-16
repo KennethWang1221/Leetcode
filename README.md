@@ -58,6 +58,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 3104      | [Find Longest Self Contained Substring](https://leetcode.com/problems/find-longest-self-contained-substring/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_3104_Find_Longest_Self_Contained_Substring.ipynb)        | ✔️      | Amazon  |
 | 3413      | [Maximum Coins From K Consecutive Bags](https://leetcode.com/problems/maximum-coins-from-k-consecutive-bags/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_3413_Maximum_Coins_From_K_Consecutive_Bags.ipynb)        | ✔️      | Amazon  |
 | 0912      | [Sort an Array](https://leetcode.com/problems/sort-an-array/description/)         | Array    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0912_Sort_an_Array.ipynb) [2](https://www.youtube.com/watch?v=MsYZSinhuFo)        | ✔️      | Amazon  |
+| 0041      | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/)         | Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=8g78yfzMlao)        | ✔️      | |
 
 
 ### String
