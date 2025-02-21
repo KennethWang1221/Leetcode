@@ -338,6 +338,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 2104      | [Sum of Subarray Ranges](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/)         | Binary Search Array    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_2193_Minimum_Number_of_Moves_to_Make_Palindrome.ipynb)        | ✔️      | Amazon  |
 | 1268      | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)         | Binary Search    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_1268_Search_Suggestions_System.ipynb)        | ✔️      | Amazon  |
 | 0875      | [KoKo Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Binary Search    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=U2SozAs9RzA)        | ✔️      | Amazon  |
+| 0374      | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)         | Binary Search        | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=xW4QsTtaCa4) | ✔️       | |
 
 ### Breadth-First Search
 
