@@ -342,6 +342,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1011      | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)         | Binary Search        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=ER_oLmdc-nw) | ✔️       | |
 | 0081      | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)         | Binary Search        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=oUnF7o88_Xc) | ✔️       | |
 | 0981      | [Time Based Key Value Store](https://leetcode.com/problems/time-based-key-value-store/)         | Binary Search        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=fu2cD_6E8Hw&t=4s) | ✔️       | |
+| 0410      | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/description/)         | Binary Search        | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=YUF3_eBdzsk) | ✔️       | |
 
 ### Breadth-First Search
 
