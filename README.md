@@ -267,6 +267,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0378      | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Max Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0378_Kth_Smallest_Element_in_a_Sorted_Matrix.ipynb)        | ✔️      | Amazon  |
 | 0253      | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/)         | Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0253_Meeting_Rooms_II.ipynb) [2](https://www.youtube.com/watch?v=FdzJmTCVyJU)        | ✔️      | Amazon  |
 | 1046      | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)         | Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=B-QCq79-Vfw)        | ✔️      |  |
+| 1094      | [Car Pooling](https://leetcode.com/problems/car-pooling/description/)         | Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=08sn_w4LWEE)        | ✔️      |  |
 
 ### Graph (Breadth-FS)
 
