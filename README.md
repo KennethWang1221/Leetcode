@@ -269,6 +269,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1046      | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)         | Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=B-QCq79-Vfw)        | ✔️      |  |
 | 1094      | [Car Pooling](https://leetcode.com/problems/car-pooling/description/)         | Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=08sn_w4LWEE)        | ✔️      |  |
 | 1094      | [Design Twitter](https://leetcode.com/problems/design-twitter/submissions/1556803591/)         | Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=pNichitDD2E)        | ✔️      |  |
+| 1405      | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/description/)         | Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=8u-H6O_XQKE)        | ✔️      |  |
 
 ### Graph (Breadth-FS)
 
