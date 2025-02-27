@@ -266,6 +266,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0407      | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/description/)         | Max Heap   | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](./data_structures/Leetcode_0407_Trapping_Rain_Water_II.ipynb)        | ✔️      | Amazon  |
 | 0378      | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Max Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0378_Kth_Smallest_Element_in_a_Sorted_Matrix.ipynb)        | ✔️      | Amazon  |
 | 0253      | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/)         | Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0253_Meeting_Rooms_II.ipynb) [2](https://www.youtube.com/watch?v=FdzJmTCVyJU)        | ✔️      | Amazon  |
+| 1046      | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)         | Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=B-QCq79-Vfw)        | ✔️      |  |
 
 ### Graph (Breadth-FS)
 
