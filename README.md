@@ -292,6 +292,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0127      | [Word Ladder](https://leetcode.com/problems/word-ladder/description/?envType=study-plan-v2&envId=top-interview-150)         | BFS    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=h9iTnkgv05E)   |  ✔️       | Top Interview 0097/150 / Amazon  |
 | 0126      | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/)         | BFS    | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://leetcode.com/problems/word-ladder-ii/solutions/2422401/46ms-python-97-faster-working-multiple-solutions-95-memory-efficient-solution/)   |  ✔️       |  |
 | 0863      | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/?envType=problem-list-v2&envId=7p5x763&sorting=W3sic29ydE9yZGVyIjoiREVTQ0VORElORyIsIm9yZGVyQnkiOiJGUkVRVUVOQ1kifV0%3D&page=1)         | BFS    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0863_All_Nodes_Distance_K_in_Binary_Tree.ipynb)   |  ✔️       | Amazon |
+| 0997      | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)         | BFS    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=QiGaxdUINJ8)   |  ✔️       | |
 
 
 ### Graph (Best-FS)
