@@ -393,6 +393,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0241      | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)  | [1](https://www.youtube.com/watch?v=cykVFFm5D3s)        | ✔️       | Amazon |
 | 1863      | [Sum of All Subsets XOR Total](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)  | [1](https://www.youtube.com/watch?v=LI7YR-bwNYY)        | ✔️       | |
 | 0473      | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/description/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)  | [1](https://www.youtube.com/watch?v=hUe0cUKV-YY)        | ✔️       | |
+| 0698      | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)  | [1](https://www.youtube.com/watch?v=mBk4I0X46oI)        | ✔️       | |
 
 ### Divide & Conquer
 
