@@ -392,6 +392,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0037      | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)         | Backtracking        | ![Hard](https://img.shields.io/badge/-Hard-red)  | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0037.%E8%A7%A3%E6%95%B0%E7%8B%AC.md)        | ✔️       |  |
 | 0241      | [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/?envType=company&envId=amazon&favoriteSlug=amazon-thirty-days)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)  | [1](https://www.youtube.com/watch?v=cykVFFm5D3s)        | ✔️       | Amazon |
 | 1863      | [Sum of All Subsets XOR Total](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)  | [1](https://www.youtube.com/watch?v=LI7YR-bwNYY)        | ✔️       | |
+| 0473      | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/description/)         | Backtracking        | ![Medium](https://img.shields.io/badge/-Medium-warning)  | [1](https://www.youtube.com/watch?v=hUe0cUKV-YY)        | ✔️       | |
 
 ### Divide & Conquer
 
