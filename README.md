@@ -247,6 +247,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0669     | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)         | Recursion       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=jwt5mTjEXGc) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0669.修剪二叉搜索树.md)  | ✔️       |   |
 | 0700     | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)         | Recursion / Iterative      | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0700.二叉搜索树中的搜索.md)  | ✔️       |   |
 | 0701     | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)         | Recursion / Iterative      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0701.二叉搜索树中的插入操作.md)  | ✔️       |   |
+| 0543     | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)         | DFS      | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=K81C31ytOZE)  | ✔️       |   |
 
 ### Heap
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
