@@ -30,8 +30,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 - [Trie](#trie)
 - [Union Find](#union-find)
 - [Topological Sort](#topological-sort)
-- [Boyer-Moore Voting Algorithm](#boyer-moore-voting-algorithm)
-  
+
 ### Machine Learning
 - [Machine Learning](#machine-learning-1)
 - [Large Language Models](#large-language-models)
@@ -492,40 +491,6 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0516     | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)         | 2D Bottom-UP DP / Recursive | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0516.%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97.md) [2](https://www.youtube.com/watch?v=bUr8cNWI09Q)        | ✔️       | Similar to 0516 / 0392 / 0718 / 1035 / 1143 / 0583 / 0063 / 0062 |
 | 0072      | [Edit Distance](https://leetcode.com/problems/edit-distance/)         | 2D Bottom-up DP         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://turingplanet.org/2020/09/18/leetcode_planning_list/#Array) [2](https://www.youtube.com/watch?v=XYi2-LPrwm4)        | ✔️       | Top Interview 0146/150   |
 
-### Dynamic Programming 1D (Multiple States)
-
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
-### Dynamic Programming 2D (2D Input)
-
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
-### Dynamic Programming 2D (Two 1D Inputs)
-
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
-### Dynamic Programming 2D (1D Input)
-
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
-
-### Dynamic Programming 2D (1D Input + K)
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
-### Dynamic Programming (Knapsack)
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
-### Dynamic Programming (Others)
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
-
 ### Math
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
@@ -567,12 +532,6 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0269      | [Alien Dictionary - Topological Sort](https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/)         | Graph - Topological Sort        | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=6kTZYvNNyps)        |        | Need Investigate   |
-
-
-### Boyer-Moore Voting Algorithm
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
 
 ## Machine Learning
 
