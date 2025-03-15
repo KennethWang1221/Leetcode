@@ -1,6 +1,41 @@
 # Problem Lists
 This repo records coding problems from leetcode. All problems are organized by the corresponding category
 
+## Table of Contents 
+### Basic Data Structures
+- [Arrays](#arrays)
+- [String](#string)
+- [Linked List](#linked-list)
+- [Queue](#queue)
+- [Stack](#stack)
+
+### Advanced Data Structures
+- [HashSet/HashTable](#hashset--hashtable)
+- [Tree](#tree)
+- [Heap](#heap)
+- [Graph - Breadth First Search](#graph---breadth-first-search)
+- [Graph - Depth First Search](#graph---depth-first-search)
+
+### Basic Algorithms
+- [Binary Search](#binary-search)
+- [Backtracking](#backtracking)
+- [Divide & Conquer](#divide--conquer)
+- [Greedy](#greedy)
+- [Dynamic Programming - 1D](#dynamic-programming---1d)
+- [Dynamic Programming - Multidimensional](#dynamic-programming---multidimensional)
+- [Math](#math)
+- [Bit Manipulation](#bit-manipulation)
+
+### Advanced Algorithms
+- [Trie](#trie)
+- [Union Find](#union-find)
+- [Topological Sort](#topological-sort)
+- [Boyer-Moore Voting Algorithm](#boyer-moore-voting-algorithm)
+  
+### Machine Learning
+- [Machine Learning](#machine-learning-1)
+- [Large Language Models](#large-language-models)
+
 ## Basic Data Structures
 
 ### Arrays
@@ -273,7 +308,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1405      | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/description/)         | Max Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=8u-H6O_XQKE)        | ✔️      |  |
 | 1834      | [Single Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/description/)         | Heap   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=RR1n-d4oYqE)        | ✔️      |  |
 
-### Graph (Breadth-FS)
+### Graph - Breadth First Search
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
@@ -296,14 +331,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0997      | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/)         | BFS    | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=QiGaxdUINJ8)   |  ✔️       | |
 
 
-### Graph (Best-FS)
-
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
-
-
-### Graph (DFS)
+### Graph - Depth First Search
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
@@ -351,24 +379,6 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0981      | [Time Based Key Value Store](https://leetcode.com/problems/time-based-key-value-store/)         | Binary Search        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=fu2cD_6E8Hw&t=4s) | ✔️       | |
 | 0410      | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/description/)         | Binary Search        | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=YUF3_eBdzsk) | ✔️       | |
 | 1095      | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/description/)         | Binary Search        | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=BGgYC-YkGvc) | ✔️       | |
-
-### Breadth-First Search
-
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
-
-### Best-First Search
-
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
-
-### Depth-First Search
-
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
 
 ### Backtracking
 
@@ -428,7 +438,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0252      | [Meeting Rooms I](https://leetcode.com/problems/meeting-rooms/description/)         | Intervals   | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_0252_Meeting_Rooms.ipynb) [2](https://www.youtube.com/watch?v=PaJxqZVPhbg)        | ✔️      | Amazon  |
 | 0152      | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=lXVy6YWFcRM)        | ✔️      |   |
 
-### Dynamic Programming 1D
+### Dynamic Programming - 1D
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
@@ -457,7 +467,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0877      | [Stone Game](https://leetcode.com/problems/stone-game/description/) | DFS + 1D DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=uhgdXOlGYqE)        | ✔️       |  |
 | 1140      | [Stone Game II](https://leetcode.com/problems/stone-game-ii/description/) | DFS + 1D DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=I-z-u0zfQtg)        | ✔️       |  |
 
-### Dynamic Programming Multidimensional DP
+### Dynamic Programming - Multidimensional
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
@@ -480,24 +490,22 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0115     | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/description/)         | 2D Bottom-UP DP / Recursive / Same idea to 0392 | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=-RDzMJ33nx8) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0115.%E4%B8%8D%E5%90%8C%E7%9A%84%E5%AD%90%E5%BA%8F%E5%88%97.md)        | ✔️       | Explain why dp init ways are different between 1143 and 0115. Similar to 0392 / 0718 / 1035 / 1143 |
 | 0583     | [Delete Operations for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/description/)         | 2D Bottom-UP DP | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0583.%E4%B8%A4%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%88%A0%E9%99%A4%E6%93%8D%E4%BD%9C.md) [2](./data_structures/Leetcode_0583_Delete_Operations_for_Two_Strings.ipynb)        | ✔️       | Similar to 0392 / 0718 / 1035 / 1143 / 0583 |
 | 0516     | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)         | 2D Bottom-UP DP / Recursive | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0516.%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97.md) [2](https://www.youtube.com/watch?v=bUr8cNWI09Q)        | ✔️       | Similar to 0516 / 0392 / 0718 / 1035 / 1143 / 0583 / 0063 / 0062 |
+| 0072      | [Edit Distance](https://leetcode.com/problems/edit-distance/)         | 2D Bottom-up DP         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://turingplanet.org/2020/09/18/leetcode_planning_list/#Array) [2](https://www.youtube.com/watch?v=XYi2-LPrwm4)        | ✔️       | Top Interview 0146/150   |
 
 ### Dynamic Programming 1D (Multiple States)
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 
-
 ### Dynamic Programming 2D (2D Input)
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 
-
 ### Dynamic Programming 2D (Two 1D Inputs)
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
-| 0072      | [Edit Distance](https://leetcode.com/problems/edit-distance/)         | 2D Bottom-up DP         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://turingplanet.org/2020/09/18/leetcode_planning_list/#Array) [2](https://www.youtube.com/watch?v=XYi2-LPrwm4)        | ✔️       | Top Interview 0146/150   |
 
 ### Dynamic Programming 2D (1D Input)
 
@@ -509,11 +517,9 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 
-
 ### Dynamic Programming (Knapsack)
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
-
 
 ### Dynamic Programming (Others)
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
@@ -568,13 +574,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | ------- | --- | --- | --- | --- | --------- | --------- |
 
 
-## Complex Problems
-### HashTable + Doubly Linked List
-
-| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
-| ------- | --- | --- | --- | --- | --------- | --------- |
-
-### Machine Learning
+## Machine Learning
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
@@ -594,7 +594,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0046      | [Implement Precision Metric](https://www.deep-ml.com/problems/46)         | Precision and Recall  | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0046_Implement_Precision_Metric.ipynb)       | ✔️       | |
 
 
-### Large Language Models
+## Large Language Models
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
