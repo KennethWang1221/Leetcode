@@ -551,6 +551,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0014      | [Linear Regression Using Normal Equation](https://www.deep-ml.com/problems/14)         | ML - Linear Algebra / Explain np.linalg.inv   | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0014_Linear_Regression_Using_Normal_Equation.ipynb)       | ✔️       | |
 | 0041      | [Simple Convolutional 2D Layer](https://www.deep-ml.com/problems/41)         | ML / Conv / 1x1 Conv / Depthwise Conv  | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0041_Simple_Convolutional_2D_Layer.ipynb)       | ✔️       | |
 | 0046      | [Implement Precision Metric](https://www.deep-ml.com/problems/46)         | Precision and Recall  | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0046_Implement_Precision_Metric.ipynb)       | ✔️       | |
+| 0015      | [Linear Regression Using Gradient Descent](https://www.deep-ml.com/problems/15)         | MSE GD  | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0047_Gradient_Descent_Variants.ipynb)       | ✔️       | |
 
 
 ## Large Language Models
