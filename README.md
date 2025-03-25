@@ -552,6 +552,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0041      | [Simple Convolutional 2D Layer](https://www.deep-ml.com/problems/41)         | ML / Conv / 1x1 Conv / Depthwise Conv  | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0041_Simple_Convolutional_2D_Layer.ipynb)       | ✔️       | |
 | 0046      | [Implement Precision Metric](https://www.deep-ml.com/problems/46)         | Precision and Recall  | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0046_Implement_Precision_Metric.ipynb)       | ✔️       | |
 | 0015      | [Linear Regression Using Gradient Descent](https://www.deep-ml.com/problems/15)         | MSE GD  | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0047_Gradient_Descent_Variants.ipynb)       | ✔️       | |
+| 0101      | [Implement the GRPO Objective Function](https://www.deep-ml.com/problems/101)         | Reinforcement Learning | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0101_Implement_the_GRPO_Objective_Function.ipynb)       | ✔️       | |
 
 
 ## Large Language Models
