@@ -554,6 +554,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0015      | [Linear Regression Using Gradient Descent](https://www.deep-ml.com/problems/15)         | MSE GD  | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0047_Gradient_Descent_Variants.ipynb)       | ✔️       | |
 | 0101      | [Implement the GRPO Objective Function](https://www.deep-ml.com/problems/101)         | Reinforcement Learning | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0101_Implement_the_GRPO_Objective_Function.ipynb)       | ✔️       | |
 | 0056      | [KL Divergence Between Two Normal Distributions](https://www.deep-ml.com/problems/56)         | ML | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0056_KL_Divergence_Between_Two_Normal_Distributions.ipynb)       | ✔️       | |
+| 0017      | [K Means Clustering](https://www.deep-ml.com/problems/17)         | ML | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_0017_K_Means_Clustering.ipynb)       | ✔️       | |
 
 
 ## Large Language Models
