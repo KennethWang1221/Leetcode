@@ -171,7 +171,7 @@ A: {example_answer}
         inputs = self.reader_tokenizer(prompt, return_tensors="pt").to("cuda")
         outputs = self.reader_model.generate(
             **inputs,
-            max_new_tokens=100,
+            max_new_tokens=150,
             temperature=0.7,
             do_sample=True
         )
@@ -430,7 +430,7 @@ A: {example_answer}
             inputs = self.judge_tokenizer(prompt, return_tensors="pt").to("cuda")
             outputs = self.judge_model.generate(
                 **inputs,
-                max_new_tokens=150,
+                max_new_tokens=200,
                 temperature=0.2,
                 do_sample=False
             )
@@ -496,9 +496,12 @@ if __name__ == "__main__":
     # Step 2: Generate RAG responses using the reader model with dynamic retrieval.
     print("Generating RAG responses for each question...")
     rag_responses = []
-    for pair in qa_pairs:
+    retrived_contexts = []
+    for index, pair in enumerate(qa_pairs):
         response, retrieved_context = evaluator.generate_rag_response(pair["question"])
         rag_responses.append(response)
+        retrived_contexts.append(retrieved_context[:200])
+        print(f"\nQA ID: {index}")
         print(f"\nQuestion: {pair['question']}")
         print(f"Retrieved Context: {retrieved_context[:200]}...")  # Print first 200 chars
         print(f"RAG Response: {response}")
@@ -508,13 +511,14 @@ if __name__ == "__main__":
     # Step 3: Evaluate each RAG response against the reference answer.
     print("Evaluating RAG responses...")
     results = []
-    for index, (pair, response) in enumerate(zip(qa_pairs, rag_responses)):
+    for index, (pair, response, retrieved_context) in enumerate(zip(qa_pairs, rag_responses, retrived_contexts)):
         result = evaluator.evaluate_response(pair["question"], pair["answer"], response)
         results.append(result)
-        print(f"\nQA ID: {index}")
+        print(f"\nEvaluate QA ID: {index}")
         print(f"Question: {result['question']}")
         print(f"Reference: {result['reference']}")
         print(f"Response: {result['response']}")
+        print(f"Retrieved_context: {retrieved_context[:200]}")
         print(f"LLM Judge Score: {result['score']}/5")
         print(f"LLM Judge Reasoning: {result['reasoning']}")
         print(f"Perplexity: {result['perplexity']}")
@@ -523,6 +527,7 @@ if __name__ == "__main__":
         print(f"ROUGE-2: Precision: {result['rouge2_precision']}, Recall: {result['rouge2_recall']}, F-measure: {result['rouge2_fmeasure']}")
         print(f"ROUGE-L: Precision: {result['rougeL_precision']}, Recall: {result['rougeL_recall']}, F-measure: {result['rougeL_fmeasure']}")
         print("="*15)
+        print()
     
     # Final evaluation report.
     if results:
