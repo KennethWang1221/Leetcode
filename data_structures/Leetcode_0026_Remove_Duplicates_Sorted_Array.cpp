@@ -34,4 +34,4 @@ int main() {
 
     return 0;
 }
-// g++ -std=c++17 Leetcode_0088_Merge_Sorted_Array.cpp -o test
+// g++ -std=c++17 Leetcode_0026_Remove_Duplicates_Sorted_Array.cpp -o test
