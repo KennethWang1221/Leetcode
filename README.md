@@ -185,6 +185,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0735      | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)         | Stack        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=LN7KjRszjk4) | ✔️       | |
 | 0853      | [Car Fleet](https://leetcode.com/problems/car-fleet/description/)         | Stack        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Pr6T-3yB9RM) | ✔️       | |
 | 0394      | [Decode String](https://leetcode.com/problems/decode-string/description/)         | Stack        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=qB0zZpBJlh8) | ✔️       | |
+| 0895      | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)         | Stack        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=Z6idIicFDOE) | ✔️       | |
 
 ## Advanced Data Structures
 ### HashSet / HashTable
