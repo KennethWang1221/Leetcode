@@ -161,6 +161,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0138      | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/?envType=study-plan-v2&envId=top-interview-150/)         | Linked List        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=5Y2EiZST97Y)        | ✔️       | Top Interview 0065/150 / Amazon  |
 | 0146      | [LRU Cache](https://leetcode.com/problems/lru-cache/description/?envType=study-plan-v2&envId=top-interview-150)         | Linked List        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=7ABFKPK2hD4)        | ✔️       | Top Interview 0021/150 / Amazon |
 | 0146      | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/)         | Linked List        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=aBbsfn863oA)        | ✔️       | |
+| 0460      | [LFU Cache](https://leetcode.com/problems/lfu-cache/description/)         | Linked List        | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_0460_LFU_Cache.ipynb)        | ✔️       | |
 
 ### Queue
 
