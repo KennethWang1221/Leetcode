@@ -423,6 +423,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0108      | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)         | Recursive / Divide & conquer / Binary Search  | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=0K0uCMYq5ng) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0108.将有序数组转换为二叉搜索树.md)      | ✔️       | Top Interview 0108/150  |
 | 0427      | [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/description/?envType=study-plan-v2&envId=top-interview-150)         | Recursive / Divide & conquer / Binary Search  | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=UQ-1sBMV0v4)      | ✔️       | Top Interview 0110/150  |
 | 1448      | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)         | DFS  | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=7cp5imvDzl4)      | ✔️       | |
+| 1325      | [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/description/)         | DFS / BFS  | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=FqAoYAwbwV8)      | ✔️       | |
 
 ### Greedy
 
