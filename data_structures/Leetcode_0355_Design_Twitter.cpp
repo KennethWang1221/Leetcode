@@ -93,3 +93,5 @@ int main() {
 
     return 0;
 }
+
+// g++ -std=c++17 Leetcode_0355_Design_Twitter.cpp -o test      
