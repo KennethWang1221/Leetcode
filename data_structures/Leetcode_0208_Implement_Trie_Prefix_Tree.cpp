@@ -73,4 +73,4 @@ int main() {
 
     return 0;
 }
-// g++ -std=c++17 Leetcode_0052_N_Queens_II.cpp -o test
+// g++ -std=c++17 Leetcode_0208_Implement_Trie_Prefix_Tree.cpp -o test
