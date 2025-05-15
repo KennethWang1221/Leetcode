@@ -113,3 +113,5 @@ int main() {
 
     return 0;
 }
+
+// g++ -std=c++17 Leetcode_0695_Max_Area_of_Island.cpp -o test
