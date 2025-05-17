@@ -531,6 +531,8 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0137      | [Single Number II](https://leetcode.com/problems/single-number-ii/description/?envType=study-plan-v2&envId=top-interview-150)         | Bit Manipulation         | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_0137_Single_Number_II.ipynb)        | ✔️       | Top Interview 0128/150   |
 | 0201      | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/description/?envType=study-plan-v2&envId=top-interview-150)         | Bit Manipulation         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=R3T0olAhUq0)        | ✔️       | Top Interview 0129/150   |
 | 0338      | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)         | DP / Bit Manipulation         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=RyBM56RIWrM)        | ✔️       | |
+| 0268      | [Missing Number](https://leetcode.com/problems/missing-number/description/)         | XOR         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](http://youtube.com/watch?v=WnPLSRLSANE)        | ✔️       | |
+| 0371      | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)         | XOR         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=gVUrDV4tZfY)        | ✔️       | |
 
 ## Advanced Algorithms
 ### Trie
