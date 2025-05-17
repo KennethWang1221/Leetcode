@@ -60,7 +60,7 @@ private:
     }
 
 public:
-    bool canTraverseAllPaths(vector<int>& nums) {
+    bool canTraverseAllPairs(vector<int>& nums) {
         int n = nums.size();
         if (n == 1) return true;
 
@@ -94,34 +94,34 @@ int main() {
     Solution sol;
 
     vector<int> nums1 = {2,3,6};
-    cout << "Test Case 1 ([2,3,6]): " << (sol.canTraverseAllPaths(nums1) ? "true" : "false") << endl; // Expected: true
+    cout << "Test Case 1 ([2,3,6]): " << (sol.canTraverseAllPairs(nums1) ? "true" : "false") << endl; // Expected: true
 
     vector<int> nums2 = {5,2,3,8,10};
-    cout << "Test Case 2 ([5,2,3,8,10]): " << (sol.canTraverseAllPaths(nums2) ? "true" : "false") << endl; // Expected: false
+    cout << "Test Case 2 ([5,2,3,8,10]): " << (sol.canTraverseAllPairs(nums2) ? "true" : "false") << endl; // Expected: false
 
     vector<int> nums3 = {6,6,6,6};
-    cout << "Test Case 3 ([6,6,6,6]): " << (sol.canTraverseAllPaths(nums3) ? "true" : "false") << endl; // Expected: true
+    cout << "Test Case 3 ([6,6,6,6]): " << (sol.canTraverseAllPairs(nums3) ? "true" : "false") << endl; // Expected: true
 
     vector<int> nums4 = {1,1};
-    cout << "Test Case 4 ([1,1]): " << (sol.canTraverseAllPaths(nums4) ? "true" : "false") << endl; // Expected: false
+    cout << "Test Case 4 ([1,1]): " << (sol.canTraverseAllPairs(nums4) ? "true" : "false") << endl; // Expected: false
 
     vector<int> nums5 = {1};
-    cout << "Test Case 5 ([1]): " << (sol.canTraverseAllPaths(nums5) ? "true" : "false") << endl; // Expected: true
+    cout << "Test Case 5 ([1]): " << (sol.canTraverseAllPairs(nums5) ? "true" : "false") << endl; // Expected: true
 
     vector<int> nums6 = {7, 49, 343};
-    cout << "Test Case 6 ([7,49,343]): " << (sol.canTraverseAllPaths(nums6) ? "true" : "false") << endl; // Expected: true
+    cout << "Test Case 6 ([7,49,343]): " << (sol.canTraverseAllPairs(nums6) ? "true" : "false") << endl; // Expected: true
 
     vector<int> nums7 = {2,4,8,16,32};
-    cout << "Test Case 7 ([2,4,8,16,32]): " << (sol.canTraverseAllPaths(nums7) ? "true" : "false") << endl; // Expected: true
+    cout << "Test Case 7 ([2,4,8,16,32]): " << (sol.canTraverseAllPairs(nums7) ? "true" : "false") << endl; // Expected: true
 
     vector<int> nums8 = {2,3,5,7,11};
-    cout << "Test Case 8 ([2,3,5,7,11]): " << (sol.canTraverseAllPaths(nums8) ? "true" : "false") << endl; // Expected: true
+    cout << "Test Case 8 ([2,3,5,7,11]): " << (sol.canTraverseAllPairs(nums8) ? "true" : "false") << endl; // Expected: true
 
     vector<int> nums9 = {2,3,5,7,13,17,29,31};
-    cout << "Test Case 9 ([2,3,5,7,13,17,29,31]): " << (sol.canTraverseAllPaths(nums9) ? "true" : "false") << endl; // Expected: true
+    cout << "Test Case 9 ([2,3,5,7,13,17,29,31]): " << (sol.canTraverseAllPairs(nums9) ? "true" : "false") << endl; // Expected: true
 
     vector<int> nums10 = {2,3,5,7,11,13,17,23,29,31,37};
-    cout << "Test Case 10 ([2,3,5,7,11,13,17,23,29,31,37]): " << (sol.canTraverseAllPaths(nums10) ? "true" : "false") << endl; // Expected: true
+    cout << "Test Case 10 ([2,3,5,7,11,13,17,23,29,31,37]): " << (sol.canTraverseAllPairs(nums10) ? "true" : "false") << endl; // Expected: true
 
     return 0;
 }
