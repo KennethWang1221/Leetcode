@@ -533,6 +533,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0338      | [Counting Bits](https://leetcode.com/problems/counting-bits/description/)         | DP / Bit Manipulation         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=RyBM56RIWrM)        | ✔️       | |
 | 0268      | [Missing Number](https://leetcode.com/problems/missing-number/description/)         | XOR         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](http://youtube.com/watch?v=WnPLSRLSANE)        | ✔️       | |
 | 0371      | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)         | XOR         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=gVUrDV4tZfY)        | ✔️       | |
+| 3133      | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/description/)         | XOR         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=4pP-0UpEok4)        | ✔️       | |
 
 ## Advanced Algorithms
 ### Trie
