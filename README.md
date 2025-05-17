@@ -482,6 +482,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1049      | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/description/) | Bounded Knapsack Problem (BKP) / 1D and 2D Bottom-UP DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=gdXkkmzvR3c) [2](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/1049.%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8FII.md)        | ✔️       | Same idea to 0416 / 0494 / 0474 / 1049 |
 | 0877      | [Stone Game](https://leetcode.com/problems/stone-game/description/) | DFS + 1D DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=uhgdXOlGYqE)        | ✔️       |  |
 | 1140      | [Stone Game II](https://leetcode.com/problems/stone-game-ii/description/) | DFS + 1D DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=I-z-u0zfQtg)        | ✔️       |  |
+| 1137      | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/) | 1D DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=3lpNp5Ojvrw)        | ✔️       |  |
 
 ### Dynamic Programming - Multidimensional
 
