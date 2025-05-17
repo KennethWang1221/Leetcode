@@ -540,7 +540,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0684      | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)         | Graph Problems - Union Find         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=FXWRE67PLL0)        |        | Need Investigate   |
 | 0323      | [Number of Connected Components in an Undirected Graph](https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/)         | Graph Problems - Union Find         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=8f1XPm4WOUc)        |        | Need Investigate   |
-
+| 0721      | [Accounts Merge]([/](https://leetcode.com/problems/accounts-merge/description/))         | Graph Problems - Union Find         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=6st4IxEF-90)        |        | |
 
 ### Topological Sort
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
