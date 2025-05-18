@@ -510,6 +510,9 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0516     | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)         | 2D Bottom-UP DP / Recursive | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/0516.%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E5%BA%8F%E5%88%97.md) [2](https://www.youtube.com/watch?v=bUr8cNWI09Q)        | ✔️       | Similar to 0516 / 0392 / 0718 / 1035 / 1143 / 0583 / 0063 / 0062 |
 | 0072      | [Edit Distance](https://leetcode.com/problems/edit-distance/)         | 2D Bottom-up DP         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://turingplanet.org/2020/09/18/leetcode_planning_list/#Array) [2](https://www.youtube.com/watch?v=XYi2-LPrwm4)        | ✔️       | Top Interview 0146/150   |
 | 2707      | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)         | 1D Bottom-up DP / Trie / Prefix Tree      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://leetcode.com/problems/extra-characters-in-a-string/solutions/3990686/step-by-step-beginner-friendly-full-explanation-dp-efficient-easy-to-understand/) [2](https://www.youtube.com/watch?v=ONstwO1cD7c)        | ✔️       | |
+| 0010      | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)         | 2D Bottom-up DP    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=HAA8mgxlov8)        | ✔️       | |
+
+
 ### Math
 
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
