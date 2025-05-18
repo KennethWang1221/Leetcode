@@ -511,6 +511,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0072      | [Edit Distance](https://leetcode.com/problems/edit-distance/)         | 2D Bottom-up DP         | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://turingplanet.org/2020/09/18/leetcode_planning_list/#Array) [2](https://www.youtube.com/watch?v=XYi2-LPrwm4)        | ✔️       | Top Interview 0146/150   |
 | 2707      | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/description/)         | 1D Bottom-up DP / Trie / Prefix Tree      | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://leetcode.com/problems/extra-characters-in-a-string/solutions/3990686/step-by-step-beginner-friendly-full-explanation-dp-efficient-easy-to-understand/) [2](https://www.youtube.com/watch?v=ONstwO1cD7c)        | ✔️       | |
 | 0010      | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)         | 2D Bottom-up DP    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=HAA8mgxlov8)        | ✔️       | |
+| 0312      | [Burst Ballons](https://leetcode.com/problems/burst-balloons/description/)         | 2D Bottom-up DP    | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=VFskby7lUbw&t=42s)        | ✔️       | |
 
 
 ### Math
