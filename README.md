@@ -483,6 +483,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0877      | [Stone Game](https://leetcode.com/problems/stone-game/description/) | DFS + 1D DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=uhgdXOlGYqE)        | ✔️       |  |
 | 1140      | [Stone Game II](https://leetcode.com/problems/stone-game-ii/description/) | DFS + 1D DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=I-z-u0zfQtg)        | ✔️       |  |
 | 1137      | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/) | 1D DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=3lpNp5Ojvrw)        | ✔️       |  |
+| 1406      | [Stone Game III](https://leetcode.com/problems/stone-game-iii/description/) | 1D DP      | ![Medium](https://img.shields.io/badge/-Medium-warning)   | [1](https://www.youtube.com/watch?v=HsLG5QW9CFQ)        | ✔️       |  |
 
 ### Dynamic Programming - Multidimensional
 
