@@ -453,6 +453,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 2214      | [Minimum Health to Beat Game](./data_structures/Leetcode_2214_Minimum_Health_to_Beat_Game.ipynb)         | Greedy       | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](./data_structures/Leetcode_2214_Minimum_Health_to_Beat_Game.ipynb)     | ✔️       | Amazon  |
 | 0252      | [Meeting Rooms I](https://leetcode.com/problems/meeting-rooms/description/)         | Intervals   | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_0252_Meeting_Rooms.ipynb) [2](https://www.youtube.com/watch?v=PaJxqZVPhbg)        | ✔️      | Amazon  |
 | 0152      | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=lXVy6YWFcRM)        | ✔️      |   |
+| 0978      | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=V_iHUhR8Dek)        | ✔️      |   |
 
 ### Dynamic Programming - 1D
 
