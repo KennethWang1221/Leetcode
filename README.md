@@ -455,6 +455,8 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0152      | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=lXVy6YWFcRM)        | ✔️      |   |
 | 0978      | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=V_iHUhR8Dek)        | ✔️      |   |
 | 1871      | [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=v1HpZUnQ4Yo)        | ✔️      |   |
+| 0846      | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=amnrMCVd2YI)        | ✔️      |   |
+
 
 ### Dynamic Programming - 1D
 
