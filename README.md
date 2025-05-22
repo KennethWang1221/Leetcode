@@ -457,6 +457,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1871      | [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=v1HpZUnQ4Yo)        | ✔️      |   |
 | 0846      | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=amnrMCVd2YI)        | ✔️      |   |
 | 0649      | [Dota2 Senate](https://leetcode.com/problems/dota2-senate/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=zZA5KskfMuQ)        | ✔️      |   |
+| 1899      | [Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=kShkQLQZ9K4)        | ✔️      |   |
 
 
 ### Dynamic Programming - 1D
