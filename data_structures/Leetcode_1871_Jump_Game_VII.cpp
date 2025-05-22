@@ -56,4 +56,4 @@ int main() {
     return 0;
 }
 
-// g++ -std=c++17 Leetcode_1871_Jump_Game_VII.cpp -o test 
+// g++ -std=c++17 Leetcode_1871_Jump_Game_VII.cpp -o test && ./test
