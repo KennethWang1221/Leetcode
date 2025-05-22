@@ -454,6 +454,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0252      | [Meeting Rooms I](https://leetcode.com/problems/meeting-rooms/description/)         | Intervals   | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/Leetcode_0252_Meeting_Rooms.ipynb) [2](https://www.youtube.com/watch?v=PaJxqZVPhbg)        | ✔️      | Amazon  |
 | 0152      | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=lXVy6YWFcRM)        | ✔️      |   |
 | 0978      | [Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=V_iHUhR8Dek)        | ✔️      |   |
+| 1871      | [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)         | Greedy   | ![Medium](https://img.shields.io/badge/-Medium-warning)    | [1](https://www.youtube.com/watch?v=v1HpZUnQ4Yo)        | ✔️      |   |
 
 ### Dynamic Programming - 1D
 
