@@ -537,6 +537,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1071      | [Greatest Common Divisor of String](https://leetcode.com/problems/greatest-common-divisor-of-strings/description/)         | Math       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=i5I_wrbUdzM)     | ✔️       | |
 | 0867      | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)         | Math       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=DzMT3bDgVn0)     | ✔️       | |
 | 0043      | [Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)         | Math       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=1vZswirL8Y8)     | ✔️       | |
+| 2013      | [Detect Squares](https://leetcode.com/problems/detect-squares/description/)         | Math       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=bahebearrDc)     | ✔️       | |
 
 ### Bit Manipulation
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
