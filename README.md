@@ -535,6 +535,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 0149      | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/?envType=study-plan-v2&envId=top-interview-150)         | Math       | ![Hard](https://img.shields.io/badge/-Hard-red)    | [1](https://www.youtube.com/watch?v=Bb9lOXUOnFw)     | ✔️       | Top Interview 0135/150 |
 | 0168      | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)         | Math       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=Bb9lOXUOnFw)     | ✔️       | |
 | 1071      | [Greatest Common Divisor of String](https://leetcode.com/problems/greatest-common-divisor-of-strings/description/)         | Math       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=i5I_wrbUdzM)     | ✔️       | |
+| 0867      | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/description/)         | Math       | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://www.youtube.com/watch?v=DzMT3bDgVn0)     | ✔️       | |
 
 ### Bit Manipulation
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
