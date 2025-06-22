@@ -15,16 +15,28 @@ public:
 
         // Depth-first search (DFS) function
         function<void(int, int)> dfs = [&](int r, int c) {
-            if (r < 0 || r >= rows || c < 0 || c >= cols || grid[r][c] == '0' || visit.count(to_string(r) + "," + to_string(c))) {
+            // Boundary/validity checks
+            if (r < 0 || r >= rows || c < 0 || c >= cols || 
+                grid[r][c] == '0' || 
+                visit.count(to_string(r) + "," + to_string(c))) {
                 return;
             }
 
-            visit.insert(to_string(r) + "," + to_string(c));  // Mark the current cell as visited
+            visit.insert(to_string(r) + "," + to_string(c));  // Mark visited
+            
+            // Define directions ONCE (move outside recursive calls for efficiency)
+            static const vector<vector<int>> directions = {{-1,0}, {1,0}, {0,-1}, {0,1}};
+            
+            for (const auto& dir : directions) {
+                int nr = r + dir[0];
+                int nc = c + dir[1];
+                dfs(nr, nc);  // Recursive call
+            }
             // Explore the four possible directions
-            dfs(r + 1, c);  // Down
-            dfs(r - 1, c);  // Up
-            dfs(r, c + 1);  // Right
-            dfs(r, c - 1);  // Left
+            // dfs(r + 1, c);  // Down
+            // dfs(r - 1, c);  // Up
+            // dfs(r, c + 1);  // Right
+            // dfs(r, c - 1);  // Left
         };
 
         // Loop over the grid to start DFS from each land cell ('1')
