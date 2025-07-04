@@ -4,53 +4,53 @@
 using namespace std;
 
 class Solution {
-public:
-    int numIslands_DFS(vector<vector<char>>& grid) {
-        if (grid.empty() || grid[0].empty()) return 0;
+    public:
+        int numIslands_DFS(vector<vector<char>> &grid){
+            if (grid.empty() || grid[0].empty()) {
+                return 0;
+            }
 
-        int islands = 0;
-        int rows = grid.size();
-        int cols = grid[0].size();
-        unordered_set<string> visit;
+            int res = 0;
+            int rows = grid.size();
+            int cols = grid[0].size();
+            vector<vector<bool>> visit(
+                rows, // number of rows
+                vector<bool>(cols,false) // each row is a vector of 'cols' booleans, all initialized to false
+            );
 
-        // Depth-first search (DFS) function
-        function<void(int, int)> dfs = [&](int r, int c) {
-            // Boundary/validity checks
-            if (r < 0 || r >= rows || c < 0 || c >= cols || 
-                grid[r][c] == '0' || 
-                visit.count(to_string(r) + "," + to_string(c))) {
+            for (int row = 0; row < rows ; ++row) {
+                for (int col = 0; col < cols; ++col) {
+                    if (grid[row][col] == '1' && !visit[row][col]) {
+                        dfs(grid,row,col,visit);
+                        res++;
+                    }
+
+                }
+            }
+            return res;
+        }
+
+
+    public:
+        void dfs(vector<vector<char>>& grid, int row, int col, vector<vector<bool>>& visit) {
+            int rows = grid.size();
+            int cols = grid[0].size();
+
+            if (row < 0 || row >= rows || col < 0 || col >= cols || grid[row][col] == '0' || visit[row][col]) {
                 return;
             }
 
-            visit.insert(to_string(r) + "," + to_string(c));  // Mark visited
-            
+            // Mark current cell as visited
+            visit[row][col] = true;
             // Define directions ONCE (move outside recursive calls for efficiency)
             static const vector<vector<int>> directions = {{-1,0}, {1,0}, {0,-1}, {0,1}};
-            
             for (const auto& dir : directions) {
-                int nr = r + dir[0];
-                int nc = c + dir[1];
-                dfs(nr, nc);  // Recursive call
+                int r = row + dir[0];
+                int c = col + dir[1];
+                dfs(grid, r, c, visit);  // Recursive call
             }
-            // Explore the four possible directions
-            // dfs(r + 1, c);  // Down
-            // dfs(r - 1, c);  // Up
-            // dfs(r, c + 1);  // Right
-            // dfs(r, c - 1);  // Left
-        };
 
-        // Loop over the grid to start DFS from each land cell ('1')
-        for (int r = 0; r < rows; ++r) {
-            for (int c = 0; c < cols; ++c) {
-                if (grid[r][c] == '1' && !visit.count(to_string(r) + "," + to_string(c))) {
-                    islands++;  // Found a new island
-                    dfs(r, c);  // Explore this island
-                }
-            }
         }
-
-        return islands;
-    }
 
 
 
