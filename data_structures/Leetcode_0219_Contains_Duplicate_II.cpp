@@ -19,8 +19,21 @@ public:
             
             // Check if the current element is in the window
             if (window.find(nums[R]) != window.end()) {
+                /* 
+                If it finds it, it returns an iterator pointing to that value .
+                If it doesn't find it, it returns window.end() — which is like a "not found" signal.
+                */
                 return true;
             }
+
+            /* Or can use this way to check if duplicates
+            Since sets do not allow duplicates , it will never return more than 1 .
+            Returns 1 if the value exists in the set.
+            Returns 0 if it does not exist.
+            if (window.count(nums[r])) {
+                return true;
+            }
+            */
             
             // Add the current element to the window
             window.insert(nums[R]);
