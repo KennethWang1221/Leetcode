@@ -44,7 +44,10 @@ class Solution {
             visit[row][col] = true;
             // Define directions ONCE (move outside recursive calls for efficiency)
             static const vector<vector<int>> directions = {{-1,0}, {1,0}, {0,-1}, {0,1}};
-            for (const auto& dir : directions) {
+
+            // vector<int>& dir and vector<int> &dir   // same   
+            // vector<int>& dir popular written way since A reference is part of the type. So vector<int>& is the full type: "reference to a vector of int". This style helps emphasize: "dir is a reference to a vector<int>" 
+            for (const vector<int>& dir : directions) {
                 int r = row + dir[0];
                 int c = col + dir[1];
                 dfs(grid, r, c, visit);  // Recursive call
@@ -52,51 +55,55 @@ class Solution {
 
         }
 
-
-
-    int numIslands_BFS(vector<vector<char>>& grid) {
-        int rows = grid.size();
-        int cols = grid[0].size();
-        int res = 0;
-        unordered_set<string> visited; // To keep track of visited cells
-
-        // Directions for moving up, down, left, and right
-        vector<vector<int>> directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-
-        // Helper function for DFS
-        function<void(int, int)> dfs = [&](int row, int col) {
-            visited.insert(to_string(row) + "," + to_string(col));
-            queue<pair<int, int>> q; 
-            q.push({row, col});
+    public:
+        int numIslands_BFS(vector<vector<char>>& grid) {
+            int rows = grid.size();
+            int cols = grid[0].size();
+            int res = 0;
+            vector<vector<bool>> visit (rows, vector<bool> (cols, false));
             
-            while (!q.empty()) {
-                auto [r, c] = q.front();
-                q.pop();
-                
-                for (const auto& dir : directions) {
-                    int nr = r + dir[0], nc = c + dir[1];
-                    
-                    if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && visited.find(to_string(nr) + "," + to_string(nc)) == visited.end() && grid[nr][nc] == '1') {
-                        q.push({nr, nc});
-                        visited.insert(to_string(nr) + "," + to_string(nc));
+            for (int row=0; row < rows; ++row){
+                for (int col=0; col < cols; ++col){
+                    if (grid[row][col] == '1' && !visit[row][col]){
+                        if (bfs(grid,row,col,visit)){
+                            res+=1;
+                        }
                     }
                 }
             }
-        };
-
-        // Loop through each cell in the grid
-        for (int row = 0; row < rows; ++row) {
-            for (int col = 0; col < cols; ++col) {
-                // If the cell is land ('1') and not visited, start a DFS
-                if (grid[row][col] == '1' && visited.find(to_string(row) + "," + to_string(col)) == visited.end()) {
-                    dfs(row, col); // Start DFS to visit all connected land
-                    ++res;  // Increment the island count
-                }
-            }
+            return res;
+            
         }
 
-        return res;
-    }
+        bool bfs(vector<vector<char>>& grid, int row, int col, vector<vector<bool>>& visit ){
+            int rows = grid.size();
+            int cols = grid[0].size();
+            static const vector<vector<int>> directions = {{-1,0}, {1,0}, {0,-1}, {0,1}};
+            queue<pair<int, int>> q;
+            q.push({row, col});
+            visit[row][col] = true;
+            
+            while (!q.empty()){
+                pair<int, int> curr = q.front();
+                q.pop();
+                
+                int row = curr.first;
+                int col = curr.second;
+
+                for (const vector<int>& dir: directions){
+                    int r = row + dir[0];
+                    int c = col + dir[1];
+                    if (
+                        (r >= 0 && r<rows && c>=0 && c<cols && grid[r][c] =='1' && !visit[r][c])
+                    ){
+                        q.push({r,c});
+                        visit[r][c] = true;
+                    }
+                }
+
+            }
+            return true;
+        } 
 };
 
 int main() {
