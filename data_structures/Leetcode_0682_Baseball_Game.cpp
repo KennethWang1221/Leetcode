@@ -7,32 +7,35 @@ using namespace std;
 class Solution {
 public:
     int calPoints(vector<string>& operations) {
-        vector<int> res;
-
-        for (const string& op : operations) {
-            if (op == "C") {
+        vector<int> res = {};
+        int total = 0;
+        int n = operations.size();
+        for (int i =0; i < n; i++){
+            if (operations[i] == "C"){
                 res.pop_back();
-            } else if (op == "D") {
+            } else if ( operations[i] == "D" && !res.empty()) {
                 int temp = res.back();
                 res.push_back(temp * 2);
-            } else if (op == "+") {
+            } else if (operations[i] == "+" && !res.empty()) {
                 int add1 = res.back();
                 res.pop_back();
                 int add2 = res.back();
+                res.pop_back();
+                res.push_back(add2);
                 res.push_back(add1);
                 res.push_back(add1 + add2);
+
             } else {
-                res.push_back(stoi(op));
+                res.push_back(stoi(operations[i]));
             }
         }
 
-        int total = 0;
-        for (int score : res) {
-            total += score;
+        for (int i = 0; i < res.size(); i++){
+            total += res[i];
         }
-
         return total;
     }
+
 };
 
 int main() {
