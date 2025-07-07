@@ -17,13 +17,20 @@ public:
                 int temp = res.back();
                 res.push_back(temp * 2);
             } else if (operations[i] == "+" && !res.empty()) {
-                int add1 = res.back();
-                res.pop_back();
-                int add2 = res.back();
-                res.pop_back();
-                res.push_back(add2);
-                res.push_back(add1);
-                res.push_back(add1 + add2);
+                bool use_method1 = true;
+                if (use_method1){
+                    int res_size = res.size();
+                    res.push_back(res[res_size-1] + res[res_size-2]);
+                } else {
+                    int add1 = res.back();
+                    res.pop_back();
+                    int add2 = res.back();
+                    res.pop_back();
+                    res.push_back(add2);
+                    res.push_back(add1);
+                    res.push_back(add1 + add2);
+
+                }
 
             } else {
                 res.push_back(stoi(operations[i]));
