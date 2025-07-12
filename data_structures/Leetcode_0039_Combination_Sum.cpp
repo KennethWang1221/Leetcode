@@ -5,14 +5,16 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        vector<vector<int>> res;
-        vector<int> comb;
-        backtracking(candidates, target, 0, comb, 0, res);
+        vector<vector<int>> res = {};
+        int total = 0;
+        vector<int> comb = {};
+        int start = 0;
+        backtracking(candidates, target, total, comb, res, start);
         return res;
     }
 
 private:
-    void backtracking(vector<int>& candidates, int target, int start, vector<int>& comb, int total, vector<vector<int>>& res) {
+    void backtracking(vector<int>& candidates, int target, int total, vector<int>& comb, vector<vector<int>>& res, int start) {
         // If the current total equals the target, add the combination to the result
         if (total == target) {
             res.push_back(comb);
@@ -24,13 +26,13 @@ private:
             return;
         }
 
-        // Include the current number and backtrack
-        comb.push_back(candidates[start]);
-        backtracking(candidates, target, start, comb, total + candidates[start], res); // not moving to the next element
-        comb.pop_back(); // Backtrack to try other possibilities
-
-        // Exclude the current number and move to the next element
-        backtracking(candidates, target, start + 1, comb, total, res);
+        for (int i = start; i < candidates.size(); i++){
+            comb.push_back(candidates[i]);
+            total += candidates[i];
+            backtracking(candidates, target, total, comb, res, i);
+            comb.pop_back();
+            total -= candidates[i];
+        }
     }
 };
 
@@ -48,6 +50,14 @@ int main() {
             cout << num << " ";
         }
         cout << "]" << endl;
+    }
+
+
+    for (const vector<int>& subset: result){
+        for (int num: subset){
+            cout << num << endl;
+        }
+
     }
 
     return 0;
