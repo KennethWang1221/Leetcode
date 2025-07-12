@@ -5,13 +5,13 @@ using namespace std;
 
 class KthLargest {
 private:
-    priority_queue<int, vector<int>, greater<int>> minheap; // Min-heap to store the k largest elements
+    priority_queue<int, vector<int>, greater<int>> minheap; // Min-heap to store the k largest elements, By default, it implements a max-heap , meaning the largest element is always at the top. To make it a min-heap , we change the comparison function to greater<int>. By default, priority_queue uses less<int> (i.e., max-heap behavior), where the largest element is at the top. If we want a min-heap , where the smallest element is at the top, we replace the comparator with greater<int>. It tells the priority_queue to order elements in ascending order.  The less<int> comparator defines descending order . It tells the priority_queue to keep the largest element at the top , making it behave like a max-heap . priority_queue<int, vector<int>, greater<int>>: 1. The type of data it stores → int 2. The container it uses to store them → vector<int> 3. The comparison function to order elements → greater<int> (for min-heap)
     int k;
 
 public:
     // Constructor to initialize the KthLargest object with k and an initial list of numbers
-    KthLargest(int k, vector<int>& nums) {
-        this->k = k;
+    // Using member initializer list for better efficiency. Initialize the member variable k with the value of the parameter k
+    KthLargest(int k, vector<int>& nums) : k(k) {
         for (int n : nums) {
             minheap.push(n); // Push element into min-heap
             if (minheap.size() > k) {
