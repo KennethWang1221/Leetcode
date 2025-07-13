@@ -1,11 +1,12 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <cmath>
 using namespace std;
 
 class Solution {
 public:
-    int maxSubArray(vector<int>& nums) {
+    int maxSubArray_method1(vector<int>& nums) {
         // Initialize with the first element
         int current_sum = nums[0];
         int max_sum = nums[0];
@@ -21,6 +22,24 @@ public:
         
         return max_sum;
     }
+
+    int maxSubArray_method2(vector<int>& nums) {
+        int n = nums.size();
+        float res = -INFINITY;
+        int count = 0;
+
+        for (int i = 0; i < n; i++){
+            count += nums[i];
+            if (count > res){
+                res = count;
+            }
+            if (count <= 0){
+                count = 0;
+            }
+        }
+
+        return res;
+    }
 };
 
 int main() {
@@ -28,8 +47,8 @@ int main() {
     
     // Example usage
     vector<int> nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-    cout << "Maximum subarray sum: " << solution.maxSubArray(nums) << endl;  // Expected output: 6
-    
+    cout << "Maximum subarray sum: " << solution.maxSubArray_method1(nums) << endl;  // Expected output: 6
+    cout << "Maximum subarray sum: " << solution.maxSubArray_method2(nums) << endl;  // Expected output: 6
     return 0;
 }
 
