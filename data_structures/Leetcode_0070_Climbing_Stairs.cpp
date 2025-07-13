@@ -5,15 +5,22 @@ using namespace std;
 class Solution {
 public:
     int climbStairs(int n) {
-        vector<int> nums = {1, 2};
-        vector<int> dp(n + 1, 0);
-        dp[0] = 1; // Base case: 1 way to stay at ground (do nothing)
-        
-        for (int a = 1; a <= n; ++a) {
-            for (int step : nums) {
-                int remain = a - step;
-                if (remain >= 0) {
-                    dp[a] += dp[remain];
+        static const vector<int> steps = {1,2};
+        // vector<int> dp(n + 1, 0);
+
+        vector<int> dp = {};
+        for (int i = 0; i < n+1; i++){
+            dp.push_back(0);
+        }
+        dp[0] = 1;
+
+        for (int i = 1; i < n+1; i++){
+            for (const int& step : steps){
+                int remain = i - step;
+                if (remain < 0){
+                    dp[i] = dp[i];
+                } else{
+                    dp[i] = dp[remain] + dp[i];
                 }
             }
         }
@@ -24,7 +31,8 @@ public:
 
 int main() {
     Solution sol;
-    int result = sol.climbStairs(3);
+    int n = 3;
+    int result = sol.climbStairs(n);
     cout << "Test case n=3: " << result << endl; // Output should be 3
     return 0;
 }
