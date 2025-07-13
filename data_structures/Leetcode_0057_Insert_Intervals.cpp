@@ -7,33 +7,37 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
-        vector<vector<int>> merged = intervals;
-        merged.push_back(newInterval);
-        sort(merged.begin(), merged.end());
-        
-        vector<vector<int>> res;
-        if (merged.empty()) {
-            return res;
+        if (intervals.empty()){
+            return {newInterval};
         }
-        res.push_back(merged[0]);
         
-        for (int i = 0; i < merged.size(); ++i) {
-            vector<int>& last = res.back();
-            int current_start = merged[i][0];
-            int current_end = merged[i][1];
+        intervals.push_back(newInterval);
+        sort(intervals.begin(), intervals.end());
+        int n = intervals.size();
+        vector<vector<int>> res = {intervals[0]};
+
+        for (int i = 1; i < n; i++){  // Start from 1 since we added intervals[0]
+            vector<int>& prev = res.back(); // We use & to get a reference to the last element in the result vector (res) so that when we modify prev, we are actually modifying the element inside res , not just a copy. If you don’t use & , then prev becomes a copy of the last interval, and any changes you make to prev will not affect the original data in res .
+            int prevstart = prev[0];
+            int prevend = prev[1];
+            int curstart = intervals[i][0];
+            int curend = intervals[i][1];
             
-            if (current_start <= last[1]) {
-                // Merge the intervals
-                last[1] = max(last[1], current_end);
-                last[0] = min(last[0], current_start);
+            if (curstart <= prevend){
+                prev[0] = min(prevstart, curstart);
+                prev[1] = max(prevend, curend);
             } else {
-                res.push_back(merged[i]);
+                vector<int> temp = {curstart, curend};
+                res.push_back(temp);
             }
+
         }
-        
+
         return res;
+
     }
 };
+
 
 int main() {
     Solution sol;
@@ -41,7 +45,7 @@ int main() {
     vector<int> newInterval = {4,8};
     vector<vector<int>> result = sol.insert(intervals, newInterval);
     
-    // Print the result
+    // Test 1: Print the result
     cout << "[";
     for (size_t i = 0; i < result.size(); ++i) {
         cout << "[" << result[i][0] << "," << result[i][1] << "]";
@@ -50,7 +54,18 @@ int main() {
         }
     }
     cout << "]" << endl; // Expected output: [[1,2],[3,10],[12,16]]
-    
+
+    // Test 2: 
+    vector<vector<int>> intervals_2 = {{1,3}, {6,9}};
+    vector<int> newInterval_2 = {2,5};
+    vector<vector<int>> results  = {};
+    results = sol.insert(intervals_2, newInterval_2);
+    for (const auto& res : results){
+        for (const auto& item : res){
+            cout << item << endl;
+        }
+    }
+
     return 0;
 }
 
