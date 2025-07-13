@@ -7,28 +7,22 @@ class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
         int rows = obstacleGrid.size();
-        if (rows == 0) return 0;
         int cols = obstacleGrid[0].size();
-        if (cols == 0) return 0;
-        
-        vector<vector<long long>> dp(rows + 1, vector<long long>(cols + 1, 0));
-        dp[rows-1][cols-1] = obstacleGrid[rows-1][cols-1] == 0 ? 1 : 0;
-        
-        for (int row = rows - 1; row >= 0; --row) {
-            for (int col = cols - 1; col >= 0; --col) {
-                if (row == rows - 1 && col == cols - 1) {
-                    // Already initialized, skip to avoid overwriting
-                    continue;
-                }
-                if (obstacleGrid[row][col] == 1) {
+        vector<vector<long long>> dp (rows+1, vector<long long>(cols+1,0));
+        dp[rows][cols-1] = 1;
+
+        for (int row = rows-1; row > -1; row --){
+            for (int col = cols-1; col > -1; col --){
+                if (obstacleGrid[row][col] == 1){
                     dp[row][col] = 0;
                 } else {
-                    dp[row][col] = dp[row + 1][col] + dp[row][col + 1];
+                    dp[row][col] = dp[row+1][col] + dp[row][col+1];
                 }
             }
         }
-        
+
         return dp[0][0];
+
     }
 };
 
