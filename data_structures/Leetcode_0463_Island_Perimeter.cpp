@@ -3,47 +3,47 @@
 #include <unordered_set>
 using namespace std;
 
-class Solution {
-public:
-    int islandPerimeter(vector<vector<int>>& grid) {
-        unordered_set<string> visit;
-        int rows = grid.size();
-        int cols = grid[0].size();
-        int perim = 0;
+class Solution{
+    public:
+        int islandPerimeter(vector<vector<int>>& grid){
+            int rows = grid.size();
+            int cols = grid[0].size();
+            vector<vector<bool>> visit (
+                rows,
+                vector<bool>(cols,false)
+            );
 
-        // Helper function for Depth-First Search
-        function<int(int, int)> dfs = [&](int r, int c) {
-            // Out of bounds or water (0)
-            if (r < 0 || r >= rows || c < 0 || c >= cols || grid[r][c] == 0) {
-                return 1;
-            }
-            string pos = to_string(r) + "," + to_string(c);
-            if (visit.count(pos)) {
-                return 0;
-            }
-
-            visit.insert(pos);
-
-            int perimeter = 0;
-            perimeter += dfs(r - 1, c); // Up
-            perimeter += dfs(r + 1, c); // Down
-            perimeter += dfs(r, c - 1); // Left
-            perimeter += dfs(r, c + 1); // Right
-
-            return perimeter;
-        };
-
-        // Iterate through the grid to start DFS from every land cell (1)
-        for (int r = 0; r < rows; ++r) {
-            for (int c = 0; c < cols; ++c) {
-                if (grid[r][c] == 1) {
-                    perim += dfs(r, c);
+            for (int row = 0; row < rows; row ++){
+                for (int col = 0; col < cols; col++){
+                    if (grid[row][col] == 1 && (!visit[row][col])){
+                        return dfs(grid, row,col, visit);
+                    }
                 }
             }
+            return 0;
         }
 
-        return perim;
-    }
+        int dfs(vector<vector<int>>& grid, int row, int col, vector<vector<bool>>& visit){
+            if (row < 0 || row >= grid.size() || col < 0 || col >= grid[0].size() || grid[row][col] == 0  ){
+                return 1;
+            }
+
+            if (visit[row][col]){
+                return 0;
+            }
+            
+            visit[row][col] = true;
+            int perimeter = 0;
+            static const vector<vector<int>> directions = {{-1,0}, {1,0}, {0,-1}, {0,1}};
+
+            for (const vector<int>& dir : directions){
+                int r = dir[0] + row;
+                int c = dir[1] + col;
+                perimeter += dfs(grid, r, c , visit);
+            }
+
+            return perimeter;
+        }
 };
 
 int main() {
