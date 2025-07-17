@@ -37,6 +37,22 @@ public:
 
         return maxP;
     }
+
+
+    int maxProfit_pass_pointer(vector<int>* prices) {
+        int n = prices->size();
+        // int n = (*prices).size(); same to prices->size();
+        int res = 0;
+        int low = INT_MAX;  // Initialize to a very large number
+
+        for (int i = 0; i < n; i++) {
+            low = min(low, (*prices)[i]);  // Update the lowest price
+            int profit = (*prices)[i] - low;  // Calculate potential profit
+            res = max(res, profit);  // Update the result with the maximum profit
+        }
+
+        return res;
+    }
 };
 
 int main() {
@@ -49,6 +65,8 @@ int main() {
     int result2 = solution.maxProfit_sliding_window(prices);
     cout << "Maximum profit: " << result2 << endl;
 
+    int result3 = solution.maxProfit_pass_pointer(&prices);
+    cout << "Maximum profit: " << result3 << endl;
     return 0;
 }
 // g++ -std=c++17 Leetcode_0121_Best_Time_to_Buy_and_Sell_Stock.cpp -o test
