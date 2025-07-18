@@ -29,6 +29,31 @@ public:
         return true;
     }
 
+    bool isPalindrome_method2(string s) {
+        string filtered;
+
+        // Step 1: Filter non-alphanumeric characters and convert to lowercase
+        for (char& c : s) {
+            if (isalnum(c)) {
+                filtered += tolower(c);
+            }
+        }
+
+        // Step 2: Compare the filtered string with its reverse
+        int left = 0;
+        int right = filtered.size() - 1;
+
+        while (left < right) {
+            if (filtered[left] != filtered[right]) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+
+        return true;
+    }
+
 private:
     bool isAlpha(char i) {
         return (isalpha(i) || isdigit(i)); // Check if character is alphanumeric
@@ -40,6 +65,9 @@ int main() {
     string s = "A man, a plan, a canal: Panama"; // You can test with other strings
     bool res = solution.isPalindrome(s);
     cout << (res ? "True" : "False") << endl; // Output the result
+
+    bool res2 = solution.isPalindrome_method2(s);
+    cout << (res2 ? "True" : "False") << endl; // Output the result
     return 0;
 }
 
