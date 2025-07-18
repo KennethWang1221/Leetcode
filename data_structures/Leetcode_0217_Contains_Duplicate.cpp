@@ -7,11 +7,11 @@ public:
     bool containsDuplicate(std::vector<int>& nums) {
         std::unordered_map<int, int> hashmap;
 
-        for (int n : nums) {
+        for (const auto& n : nums) {
             if (hashmap.find(n) != hashmap.end()) {
                 return true; // Duplicate found
             } else {
-                hashmap[n] = 0; // Insert element into hashmap with a dummy value
+                hashmap[n] +=1; // Insert element into hashmap with a dummy value
             }
         }
         
