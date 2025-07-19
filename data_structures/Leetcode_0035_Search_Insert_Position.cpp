@@ -32,5 +32,5 @@ int main() {
 
     return 0;
 }
-
+// same idea to ./Leetcode_0704_Binary_Search.cpp
 // g++ -std=c++17 Leetcode_0035_Search_Insert_Position.cpp -o test
