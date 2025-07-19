@@ -18,6 +18,23 @@ public:
         }
         return -1;
     }
+
+    int search_method2(vector<int>& nums, int target) {
+        int n = nums.size();
+        int l = 0;
+        int r = n - 1;
+        while (l <= r){
+            int middle = (l+r) / 2;
+            if (target > nums[middle]){
+                l = middle + 1;
+            } else if (target < nums[middle]){
+                r = middle - 1;
+            } else {
+                return middle;
+            }
+        }
+        return -1;
+    }
 };
 
 // Example usage
@@ -28,6 +45,7 @@ int main() {
     cout << sol.search(nums, target) << endl; // Output: 4
     target = 2;
     cout << sol.search(nums, target) << endl; // Output: -1
+    cout << sol.search_method2(nums, target) << endl; // Output: -1
     return 0;
 }
 
