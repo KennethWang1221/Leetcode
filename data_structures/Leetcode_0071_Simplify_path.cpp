@@ -11,6 +11,9 @@ public:
         stringstream ss(path);
         string token;
 
+        // stringstream treats the string like a stream
+        // getline(ss, token, '/') reads each part between /
+
         // Split the path by '/'
         while (getline(ss, token, '/')) {
             if (token == "..") {
