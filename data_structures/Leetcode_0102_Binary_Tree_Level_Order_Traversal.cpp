@@ -24,12 +24,12 @@ public:
 
         while (!que.empty()) {
             int size = que.size();
-            vector<int> result;
+            vector<int> level;
 
             for (int i = 0; i < size; ++i) {
                 TreeNode* cur = que.front();
                 que.pop();
-                result.push_back(cur->val);
+                level.push_back(cur->val);
 
                 if (cur->left) {
                     que.push(cur->left);
@@ -40,7 +40,7 @@ public:
                 }
             }
 
-            results.push_back(result);
+            results.push_back(level);
         }
 
         return results;
