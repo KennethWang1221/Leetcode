@@ -16,27 +16,45 @@ struct TreeNode {
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> result;
+        if (!root){return {};}
+
+        vector<int> res;
         stack<TreeNode*> stack;
         TreeNode* cur = root;
 
-        while (cur || !stack.empty()) {
-            // Traverse to the leftmost node
-            while (cur) {
+        while (!stack.empty() || cur){
+            if (cur){
                 stack.push(cur);
                 cur = cur->left;
+
+            } else{
+                cur = stack.top();
+                stack.pop();
+                res.push_back(cur->val);
+                cur = cur->right;
             }
-            
-            // Process the node
-            cur = stack.top();
-            stack.pop();
-            result.push_back(cur->val);
-            
-            // Move to the right subtree
-            cur = cur->right;
         }
+        return res;
         
-        return result;
+    }
+
+
+
+    vector<int> inorderTraversal_DFS(TreeNode* root) {
+        
+
+        vector<int> res;
+        traversal(root, res);
+        return res;
+        
+    }
+
+    void traversal(TreeNode* root, vector<int>& res){
+        if (!root){return;}
+
+        traversal(root->left, res);
+        res.push_back(root->val);
+        traversal(root->right, res);
     }
 };
 
@@ -54,9 +72,14 @@ int main() {
 
     Solution s;
     vector<int> res = s.inorderTraversal(n1);
+    vector<int> res_dfs = s.inorderTraversal_DFS(n1);
 
     // Print the result
     for (int val : res) {
+        cout << val << " ";
+    }
+
+    for (int val : res_dfs) {
         cout << val << " ";
     }
     cout << endl;

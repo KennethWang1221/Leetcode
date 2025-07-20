@@ -34,6 +34,25 @@ public:
         
         return result;
     }
+
+
+    vector<int> preorderTraversal_DFS(TreeNode* root) {
+        
+        vector<int> res;
+        traversal(root, res);
+        return res;
+        
+    }
+
+    void traversal(TreeNode* root, vector<int>& res){
+        if (!root){
+            return;
+        }
+        res.push_back(root->val);
+        traversal(root->left, res);
+        traversal(root->right, res);
+    }
+
 };
 
 int main() {
@@ -50,9 +69,12 @@ int main() {
 
     Solution s;
     vector<int> res = s.preorderTraversal(n1);
-
+    vector<int> res_dfs = s.preorderTraversal_DFS(n1);
     // Print the result
     for (int val : res) {
+        cout << val << " ";
+    }
+    for (int val : res_dfs) {
         cout << val << " ";
     }
     cout << endl;

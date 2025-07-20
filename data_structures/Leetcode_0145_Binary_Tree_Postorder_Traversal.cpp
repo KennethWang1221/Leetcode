@@ -18,30 +18,37 @@ public:
     vector<int> postorderTraversal(TreeNode* root) {
         if (!root) return {};
         
-        stack<TreeNode*> stack;
         vector<int> result;
-        TreeNode* lastVisited = nullptr;
-
-        while (!stack.empty() || root != nullptr) {
-            if (root) {
-                stack.push(root);
-                root = root->left;  // go left
-            } else {
-                TreeNode* peekNode = stack.top();
-                // if right child is not visited yet
-                if (peekNode->right && lastVisited != peekNode->right) {
-                    root = peekNode->right;  // move to the right child
-                } else {
-                    // visit the node
-                    result.push_back(peekNode->val);
-                    lastVisited = stack.top();
-                    stack.pop();
-                }
-            }
-        }
+        stack<TreeNode*> stack;
+        stack.push(root);
         
+        while (!stack.empty()) {
+            TreeNode* node = stack.top();
+            stack.pop();
+            result.push_back(node->val);
+            
+            if (node->left) stack.push(node->left);
+            if (node->right) stack.push(node->right);
+            
+        }
+        reverse(result.begin(), result.end());   
         return result;
     }
+
+    vector<int> postorderTraversal_DFS(TreeNode* root) {
+        vector<int> res;
+        traversal(root, res);
+        return res;
+        
+    }
+
+    void traversal(TreeNode* root, vector<int>& res){
+        if (!root){return;}
+        traversal(root->left, res);
+        traversal(root->right, res);
+        res.push_back(root->val);
+    }
+        
 };
 
 int main() {
@@ -59,9 +66,14 @@ int main() {
     n3->left = n4;
 
     vector<int> res = s.postorderTraversal(n1);
+    vector<int> res_dfs = s.postorderTraversal_DFS(n1);
 
     // Print the result
     for (int val : res) {
+        cout << val << " ";
+    }
+
+    for (int val : res_dfs) {
         cout << val << " ";
     }
     cout << endl;
