@@ -9,7 +9,7 @@ public:
         priority_queue<int> maxheap;  // Max-heap to store stones
 
         // Push all stones into the max-heap
-        for (int s : stones) {
+        for (const auto& s : stones) {
             maxheap.push(s);
         }
 
@@ -29,6 +29,20 @@ public:
 
         // Return the remaining stone, or 0 if no stones are left
         return maxheap.empty() ? 0 : maxheap.top();
+
+        /**
+         * 
+         * 
+        int final;
+
+        if (!maxheap.empty()){
+            final = maxheap.top();
+            return final;
+        } else{
+            return 0;
+        }
+         * 
+         */
     }
 };
 
