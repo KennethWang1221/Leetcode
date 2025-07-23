@@ -64,4 +64,4 @@ int main() {
 }
 
 
-// g++ -std=c++17 Leetcode_0039_Combination_Sum.cpp -o test
+// g++ -std=c++17 Leetcode_0039_Combination_Sum.cpp -o test && ./test
