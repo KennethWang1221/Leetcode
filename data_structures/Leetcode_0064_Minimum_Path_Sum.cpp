@@ -13,8 +13,8 @@ public:
 
         // DP table with extra row and column initialized to infinity
         vector<vector<int>> res(rows + 1, vector<int>(cols + 1, INT_MAX));
-        res[rows - 1][cols] = 0; // Base case
-
+        // res[rows - 1][cols] = 0; // Base case, use this or next line , both ok.
+        res[rows][cols-1] = 0;  // Base case, 
         for (int r = rows - 1; r >= 0; --r) {
             for (int c = cols - 1; c >= 0; --c) {
                 res[r][c] = grid[r][c] + min(res[r + 1][c], res[r][c + 1]);
