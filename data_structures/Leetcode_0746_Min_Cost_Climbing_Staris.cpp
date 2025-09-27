@@ -18,6 +18,22 @@ public:
         // The result is the minimum of starting from the first or the second step
         return min(cost[0], cost[1]);
     }
+
+    int minCostClimbingStairs_DP(vector<int>& cost) {
+        int n = cost.size();
+        if (n == 1) return cost[0];
+        if (n == 2) return min(cost[0], cost[1]);
+        
+        vector<int> dp(n, 0);
+        dp[0] = cost[0];
+        dp[1] = cost[1];
+
+        for (int i = 2; i < n; i++) {
+            dp[i] = cost[i] + min(dp[i-1], dp[i-2]);
+        }
+
+        return min(dp[n-1], dp[n-2]);  
+    }
 };
 
 int main() {
@@ -26,6 +42,9 @@ int main() {
     int result = sol.minCostClimbingStairs(cost);
     cout << result << endl;  // Expected output: 6
     
+    vector<int> cost2 = {10, 15, 20};
+    int result2 = sol.minCostClimbingStairs(cost2);
+    cout << result2 << endl;  // Expected output: 15
     return 0;
 }
 
