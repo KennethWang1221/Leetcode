@@ -11,9 +11,8 @@ public:
         // Rotate layer by layer
         while (left < right) {
             // Rotate the current layer
+            int top = left, bottom = right;
             for (int i = 0; i < right - left; ++i) {
-                int top = left, bottom = right;
-
                 // Save the top-left element
                 int topleft = matrix[top][left + i];
 
