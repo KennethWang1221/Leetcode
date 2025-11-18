@@ -606,6 +606,11 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1005      | [RAG DPR Llama](./data_structures/ML_1005_RAG_DPR_Llama.py)         | ML | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_1005_RAG_DPR_Llama.py)       | ✔️       | |
 | 1006      | [RAG mpnet t5](./data_structures/ML_1006_RAG_mpnet_t5.py)         | ML | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_1006_RAG_mpnet_t5.py)       | ✔️       | |
 
+## CUDA Programming
+
+| Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
+| ------- | --- | --- | --- | --- | --------- | --------- |
+| 0001      | [Vector_Addition](https://leetgpu.com/challenges/vector-addition)         | CUDA-NVIDIA-H100     | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/CUDA_0001_Vector_Addition.cu)        | ✔️       | |
 
 ## Large Language Models
 

@@ -101,7 +101,7 @@ int main() {
         cout << num << " ";
     }
     cout << endl;
-    
+
     for (int num : result2) {
         cout << num << " ";
     }
@@ -109,4 +109,4 @@ int main() {
 
     return 0;
 }
-// g++ -std=c++17 Leetcode_0054_Spiral_Matrix.cpp -o test
+// g++ -std=c++17 -g Leetcode_0054_Spiral_Matrix.cpp -o test
