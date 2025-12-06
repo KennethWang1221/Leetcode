@@ -1,19 +1,26 @@
 #include <iostream>
+#include <unordered_set>
+#include <algorithm>
 #include <unordered_map>
 #include <vector>
+using namespace std;
 
 class Solution {
 public:
-    std::vector<int> twoSum(std::vector<int>& nums, int target) {
-        std::unordered_map<int, int> premap;
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> hashmap;
         int n = nums.size();
-        
+        vector<int> res;
+
         for (int i = 0; i < n; ++i) {
-            if (premap.find(nums[i]) != premap.end()) {
-                return {premap[nums[i]], i}; // Found the solution
+            int remain = target - nums[i];
+            if (hashmap.find(remain) != hashmap.end()) {
+                res.push_back(hashmap[remain]);
+                res.push_back(i);
+                return res;
+                // return {premap[nums[i]], i}; // Found the solution
             } else {
-                int diff = target - nums[i];
-                premap[diff] = i; // Store the difference and its index
+                hashmap.insert({nums[i], i});
             }
         }
         
