@@ -1,6 +1,7 @@
 #include <iostream>
 #include <unordered_map>
 #include <string>
+using namespace std;
 
 class Solution {
 public:
@@ -39,6 +40,30 @@ public:
 
         return true; // All checks passed, the strings are anagrams
     }
+
+
+    bool isAnagram_method2(string s, string t) {
+
+        int s_n = s.size();
+        int t_n = t.size();
+        if (s_n != t_n){
+            return false;
+        }
+
+        unordered_map<char, int> hashmap_s;
+        unordered_map<char, int> hashmap_t;
+
+        for (int i = 0; i < s_n; i++){
+            hashmap_s[s[i]]++;
+            hashmap_t[t[i]]++;
+        }
+
+        if (hashmap_s != hashmap_t){
+            return false;
+        }else{
+            return true;
+        }
+    }
 };
 
 int main() {
@@ -47,6 +72,9 @@ int main() {
     std::string t = "nagaram";
     bool res = solution.isAnagram(s, t);
     std::cout << res << std::endl; // Output will be 1 (true)
+
+    bool res2 = solution.isAnagram_method2(s, t);
+    cout << res2 << std::endl; // Output will be 1 (true)
     return 0;
 }
 
