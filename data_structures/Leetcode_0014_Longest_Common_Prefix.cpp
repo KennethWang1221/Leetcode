@@ -12,7 +12,7 @@ public:
         for (int i = 0; i < n; ++i) {
             char substring = s1[i];
             for (const std::string& s : strs) {
-                if (i >= s.length() || s[i] != substring) {
+                if (i >= s.length() || s[i] != substring || find(s.begin(), s.end(), substring) == s.end()) {
                     return res; // Prefix no longer matches
                 }
             }
