@@ -16,14 +16,14 @@ class Solution{
             for (int row = 0; row < rows; row ++){
                 for (int col = 0; col < cols; col++){
                     if (grid[row][col] == 1 && (!visit[row][col])){
-                        return dfs(grid, row,col, visit);
+                        return dfs(grid, visit, row, col);
                     }
                 }
             }
             return 0;
         }
 
-        int dfs(vector<vector<int>>& grid, int row, int col, vector<vector<bool>>& visit){
+        int dfs(vector<vector<int>>& grid, vector<vector<bool>>& visit, int row, int col){
             if (row < 0 || row >= grid.size() || col < 0 || col >= grid[0].size() || grid[row][col] == 0  ){
                 return 1;
             }
@@ -39,9 +39,26 @@ class Solution{
             for (const vector<int>& dir : directions){
                 int r = dir[0] + row;
                 int c = dir[1] + col;
-                perimeter += dfs(grid, r, c , visit);
+                perimeter += dfs(grid, visit, r, c);
             }
 
+            return perimeter;
+        }
+
+        int dfs2(vector<vector<int>>& grid, vector<vector<bool>>& visit, int row, int col){
+            if (row < 0 || row >= grid.size() || col < 0 || col >= grid[0].size() || grid[row][col] == 0){
+                return 1;
+            }
+            if (visit[row][col]){
+                return 0;
+            }
+    
+            visit[row][col] = true;
+            int perimeter = 0;
+            perimeter += dfs(grid, visit, row+1, col);
+            perimeter += dfs(grid, visit, row-1, col);
+            perimeter += dfs(grid, visit, row, col-1);
+            perimeter += dfs(grid, visit, row, col+1);
             return perimeter;
         }
 };
