@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <unordered_set>
+#include <queue>
 using namespace std;
 
 class Solution {
@@ -9,7 +10,7 @@ class Solution {
             if (grid.empty() || grid[0].empty()) {
                 return 0;
             }
-
+    
             int res = 0;
             int rows = grid.size();
             int cols = grid[0].size();
@@ -17,42 +18,43 @@ class Solution {
                 rows, // number of rows
                 vector<bool>(cols,false) // each row is a vector of 'cols' booleans, all initialized to false
             );
-
+    
             for (int row = 0; row < rows ; ++row) {
                 for (int col = 0; col < cols; ++col) {
-                    if (grid[row][col] == '1' && !visit[row][col]) {
-                        dfs(grid,row,col,visit);
-                        res++;
+                    if ((grid[row][col] == '1') && (!visit[row][col])) {
+                        
+                        if (dfs(grid,visit, row,col)){
+                            res += 1;
+                        };
                     }
-
+    
                 }
             }
             return res;
+            
         }
-
-
-    public:
-        void dfs(vector<vector<char>>& grid, int row, int col, vector<vector<bool>>& visit) {
+    
+        bool dfs(vector<vector<char>>& grid, vector<vector<bool>>& visit, int row, int col){
             int rows = grid.size();
             int cols = grid[0].size();
-
+    
             if (row < 0 || row >= rows || col < 0 || col >= cols || grid[row][col] == '0' || visit[row][col]) {
-                return;
+                return false;
             }
-
+    
             // Mark current cell as visited
             visit[row][col] = true;
             // Define directions ONCE (move outside recursive calls for efficiency)
             static const vector<vector<int>> directions = {{-1,0}, {1,0}, {0,-1}, {0,1}};
-
+    
             // vector<int>& dir and vector<int> &dir   // same   
             // vector<int>& dir popular written way since A reference is part of the type. So vector<int>& is the full type: "reference to a vector of int". This style helps emphasize: "dir is a reference to a vector<int>" 
             for (const vector<int>& dir : directions) {
                 int r = row + dir[0];
                 int c = col + dir[1];
-                dfs(grid, r, c, visit);  // Recursive call
+                dfs(grid, visit, r, c);  // Recursive call
             }
-
+            return true;
         }
 
     public:
