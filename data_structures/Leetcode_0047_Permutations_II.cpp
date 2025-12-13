@@ -41,6 +41,10 @@ private:
             return;
         }
 
+        if (comb.size > n){
+            return;
+        }
+
         for (int i = 0; i < nums.size(); ++i) {
             // Skip if the number is already used or if it's a duplicate in the current recursion
             if (used[i]) {
