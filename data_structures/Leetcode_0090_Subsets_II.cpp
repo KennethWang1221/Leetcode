@@ -9,7 +9,7 @@ public:
         vector<vector<int>> res;
         vector<int> comb;
         sort(nums.begin(), nums.end());  // Sort to handle duplicates
-        backtracking(nums, 0, comb, res);
+        backtracking2(nums, 0, comb, res);
         return res;
     }
 
@@ -17,6 +17,23 @@ private:
     void backtracking(vector<int>& nums, int start, vector<int>& comb, vector<vector<int>>& res) {
         res.push_back(comb);  // Always add the current combination to the result
         
+        for (int i = start; i < nums.size(); ++i) {
+            // Skip duplicates by ensuring that the current element is not the same as the previous one
+            if (i > start && nums[i] == nums[i - 1]) {
+                continue;
+            }
+
+            comb.push_back(nums[i]);  // Include the current number in the combination
+            backtracking(nums, i + 1, comb, res);  // Recurse with the next index
+            comb.pop_back();  // Backtrack to explore other combinations
+        }
+    }
+
+    void backtracking2(vector<int>& nums, int start, vector<int>& comb, vector<vector<int>>& res) {
+        int n = nums.size();
+        if (comb.size() <= n && find(res.begin(), res.end(), comb) == res.end()){
+            res.push_back(comb);
+        }
         for (int i = start; i < nums.size(); ++i) {
             // Skip duplicates by ensuring that the current element is not the same as the previous one
             if (i > start && nums[i] == nums[i - 1]) {
