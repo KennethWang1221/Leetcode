@@ -16,7 +16,7 @@ public:
 private:
     void backtracking(vector<int>& candidates, int target, int start, vector<int>& comb, int total, vector<vector<int>>& res) {
         // If the current total equals the target, add the combination to the result
-        if (total == target) {
+        if (total == target && find(res.begin(), res.end(), comb) == res.end()) {
             res.push_back(comb);
             return;
         }
