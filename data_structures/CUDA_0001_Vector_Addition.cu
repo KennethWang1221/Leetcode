@@ -57,4 +57,5 @@ int main() {
     return 0;
 }
 
-// nvcc CUDA_0001_Vector_Addition.cu -o test && test
+// nvcc -g -G CUDA_0001_Vector_Addition.cu -o test
+// g++ -std=c++17 xxx.cpp -g -O0 -o test

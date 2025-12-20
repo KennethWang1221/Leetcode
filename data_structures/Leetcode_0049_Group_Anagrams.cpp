@@ -3,6 +3,9 @@
 #include <unordered_map>
 #include <string>
 #include <array>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 class Solution {
 public:
@@ -32,6 +35,24 @@ public:
 
         return result;
     }
+
+
+    vector<vector<string>> groupAnagrams2(vector<string>& strs) {
+        unordered_map<string, vector<string>> res;
+    
+        for (string s : strs) {
+            string sorted_str = s;
+            sort(sorted_str.begin(), sorted_str.end());
+            res[sorted_str].push_back(s);
+        }
+    
+        vector<vector<string>> result;
+        for (auto& pair : res) {
+            result.push_back(pair.second);
+        }
+    
+        return result;
+    }
 };
 
 int main() {
@@ -46,6 +67,14 @@ int main() {
         std::cout << std::endl;
     }
 
+    vector<vector<string>> res2 = solution.groupAnagrams2(strs);
+
+    for (const auto& group : res2) {
+        for (const auto& word : group) {
+            cout << word << " ";
+        }
+        cout << endl;
+    }
     return 0;
 }
 
