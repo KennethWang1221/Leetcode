@@ -21,6 +21,20 @@ public:
             }
         }
     }
+
+    void sortColors_bubble_sort(vector<int>& nums) {
+        int n = nums.size();
+        for (int i = 0; i < n-1; i++){
+            for (int j = 0; j < n-i-1; j++){
+                if (nums[j] > nums[j+1]){
+                    int temp = nums[j];
+                    nums[j] = nums[j+1];
+                    nums[j+1] = temp;
+                }
+            }
+        }
+        
+    }
 };
 
 int main() {
@@ -41,7 +55,7 @@ int main() {
     cout << endl;
 
     vector<int> nums3 = {2, 0, 1};
-    solution.sortColors(nums3);
+    solution.sortColors_bubble_sort(nums3);
     for (int num : nums3) {
         cout << num << " ";  // Expected output: 0 1 2
     }
