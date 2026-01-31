@@ -605,6 +605,10 @@ This repo records coding problems from leetcode. All problems are organized by t
 | 1004      | [LLMs Evaluation BERT Score](./data_structures/ML_1004_LLMs_Evaluation_BERT_Score.py)         | ML | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](https://github.com/rasbt/MachineLearning-QandAI-book/blob/main/supplementary/q19-evaluation-llms/bleu.ipynb)       | ✔️       | |
 | 1005      | [RAG DPR Llama](./data_structures/ML_1005_RAG_DPR_Llama.py)         | ML | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_1005_RAG_DPR_Llama.py)       | ✔️       | |
 | 1006      | [RAG mpnet t5](./data_structures/ML_1006_RAG_mpnet_t5.py)         | ML | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_1006_RAG_mpnet_t5.py)       | ✔️       | |
+| 1007      | [RAG Evaluation](./data_structures/ML_1007_RAG_Evaluation_LLM_Judge_Perplexity_BLEU_ROUGE.py)         | ML | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_1007_RAG_Evaluation_LLM_Judge_Perplexity_BLEU_ROUGE.py)       | ✔️       | |
+| 1008      | [RMSNorm](./data_structures/ML_1008_RMSNorm.py)         | ML | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_1008_RMSNorm.py)       | ✔️       | |
+| 1009      | [RoPE](./data_structures/ML_1009_RoPE.py)         | ML | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_1009_RoPE.py)       | ✔️       | |
+| 1010      | [RoPE Visual](./data_structures/ML_1010_RoPE_Visual.py)         | ML | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/ML_1010_RoPE_Visual.py)       | ✔️       | |
 
 ## CUDA Programming
 
