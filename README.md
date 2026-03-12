@@ -33,6 +33,7 @@ This repo records coding problems from leetcode. All problems are organized by t
 
 ### Machine Learning
 - [Machine Learning](#machine-learning-1)
+- [TorchCode: PyTorch from Scratch](#torchcode-pytorch-from-scratch-ml1011ml1050)
 - [Large Language Models](#large-language-models)
 
 ## Basic Data Structures
@@ -615,6 +616,51 @@ This repo records coding problems from leetcode. All problems are organized by t
 | Number | Problem                   | Solution | Difficulty         | Reference | Accepted | Note    |
 | ------- | --- | --- | --- | --- | --------- | --------- |
 | 0001      | [Vector_Addition](https://leetgpu.com/challenges/vector-addition)         | CUDA-NVIDIA-H100     | ![Easy](https://img.shields.io/badge/-Easy-success)    | [1](./data_structures/CUDA_0001_Vector_Addition.cu)        | ✔️       | |
+
+### TorchCode: PyTorch from Scratch (ML_1011–ML_1050)
+
+| Number | Problem | Topic | Difficulty | Solution |
+| ------- | ------- | ----- | ---------- | -------- |
+| 1011 | [ReLU](./data_structures/ML_1011_ReLU.ipynb) | Activation | ![Easy](https://img.shields.io/badge/-Easy-success) | [notebook](./data_structures/ML_1011_ReLU.ipynb) |
+| 1012 | [Softmax](./data_structures/ML_1012_Softmax.ipynb) | Activation | ![Easy](https://img.shields.io/badge/-Easy-success) | [notebook](./data_structures/ML_1012_Softmax.ipynb) |
+| 1013 | [Linear Layer](./data_structures/ML_1013_Linear_Layer.ipynb) | Layer | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1013_Linear_Layer.ipynb) |
+| 1014 | [LayerNorm](./data_structures/ML_1014_LayerNorm.ipynb) | Normalization | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1014_LayerNorm.ipynb) |
+| 1015 | [Scaled Dot-Product Attention](./data_structures/ML_1015_Attention.ipynb) | Attention | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1015_Attention.ipynb) |
+| 1016 | [Multi-Head Attention](./data_structures/ML_1016_MultiHead_Attention.ipynb) | Attention | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1016_MultiHead_Attention.ipynb) |
+| 1017 | [BatchNorm](./data_structures/ML_1017_BatchNorm.ipynb) | Normalization | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1017_BatchNorm.ipynb) |
+| 1018 | [RMSNorm](./data_structures/ML_1018_RMSNorm.ipynb) | Normalization | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1018_RMSNorm.ipynb) |
+| 1019 | [Causal Self-Attention](./data_structures/ML_1019_Causal_Attention.ipynb) | Attention | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1019_Causal_Attention.ipynb) |
+| 1020 | [Grouped Query Attention](./data_structures/ML_1020_Grouped_Query_Attention.ipynb) | Attention | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1020_Grouped_Query_Attention.ipynb) |
+| 1021 | [Sliding Window Attention](./data_structures/ML_1021_Sliding_Window_Attention.ipynb) | Attention | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1021_Sliding_Window_Attention.ipynb) |
+| 1022 | [Linear Attention](./data_structures/ML_1022_Linear_Attention.ipynb) | Attention | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1022_Linear_Attention.ipynb) |
+| 1023 | [GPT-2 Block](./data_structures/ML_1023_GPT2_Block.ipynb) | Architecture | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1023_GPT2_Block.ipynb) |
+| 1024 | [KV Cache Attention](./data_structures/ML_1024_KV_Cache_Attention.ipynb) | Inference | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1024_KV_Cache_Attention.ipynb) |
+| 1025 | [SwiGLU MLP](./data_structures/ML_1025_SwiGLU_MLP.ipynb) | Architecture | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1025_SwiGLU_MLP.ipynb) |
+| 1026 | [Cross-Entropy Loss](./data_structures/ML_1026_Cross_Entropy_Loss.ipynb) | Loss | ![Easy](https://img.shields.io/badge/-Easy-success) | [notebook](./data_structures/ML_1026_Cross_Entropy_Loss.ipynb) |
+| 1027 | [Dropout](./data_structures/ML_1027_Dropout.ipynb) | Regularization | ![Easy](https://img.shields.io/badge/-Easy-success) | [notebook](./data_structures/ML_1027_Dropout.ipynb) |
+| 1028 | [Embedding Layer](./data_structures/ML_1028_Embedding.ipynb) | Layer | ![Easy](https://img.shields.io/badge/-Easy-success) | [notebook](./data_structures/ML_1028_Embedding.ipynb) |
+| 1029 | [GELU Activation](./data_structures/ML_1029_GELU.ipynb) | Activation | ![Easy](https://img.shields.io/badge/-Easy-success) | [notebook](./data_structures/ML_1029_GELU.ipynb) |
+| 1030 | [Kaiming Init](./data_structures/ML_1030_Kaiming_Init.ipynb) | Initialization | ![Easy](https://img.shields.io/badge/-Easy-success) | [notebook](./data_structures/ML_1030_Kaiming_Init.ipynb) |
+| 1031 | [Gradient Clipping](./data_structures/ML_1031_Gradient_Clipping.ipynb) | Training | ![Easy](https://img.shields.io/badge/-Easy-success) | [notebook](./data_structures/ML_1031_Gradient_Clipping.ipynb) |
+| 1032 | [Conv2d](./data_structures/ML_1032_Conv2d.ipynb) | Layer | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1032_Conv2d.ipynb) |
+| 1033 | [Multi-Head Cross-Attention](./data_structures/ML_1033_Cross_Attention.ipynb) | Attention | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1033_Cross_Attention.ipynb) |
+| 1034 | [RoPE](./data_structures/ML_1034_RoPE.ipynb) | Positional Encoding | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1034_RoPE.ipynb) |
+| 1035 | [Flash Attention](./data_structures/ML_1035_Flash_Attention.ipynb) | Attention | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1035_Flash_Attention.ipynb) |
+| 1036 | [LoRA](./data_structures/ML_1036_LoRA.ipynb) | Fine-tuning | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1036_LoRA.ipynb) |
+| 1037 | [ViT Patch Embedding](./data_structures/ML_1037_ViT_Patch_Embedding.ipynb) | Vision | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1037_ViT_Patch_Embedding.ipynb) |
+| 1038 | [Mixture of Experts](./data_structures/ML_1038_Mixture_of_Experts.ipynb) | Architecture | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1038_Mixture_of_Experts.ipynb) |
+| 1039 | [Adam Optimizer](./data_structures/ML_1039_Adam_Optimizer.ipynb) | Optimization | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1039_Adam_Optimizer.ipynb) |
+| 1040 | [Cosine LR Schedule](./data_structures/ML_1040_Cosine_LR.ipynb) | Optimization | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1040_Cosine_LR.ipynb) |
+| 1041 | [Gradient Accumulation](./data_structures/ML_1041_Gradient_Accumulation.ipynb) | Training | ![Easy](https://img.shields.io/badge/-Easy-success) | [notebook](./data_structures/ML_1041_Gradient_Accumulation.ipynb) |
+| 1042 | [Top-k / Top-p Sampling](./data_structures/ML_1042_TopK_Sampling.ipynb) | Inference | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1042_TopK_Sampling.ipynb) |
+| 1043 | [Beam Search](./data_structures/ML_1043_Beam_Search.ipynb) | Inference | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1043_Beam_Search.ipynb) |
+| 1044 | [Speculative Decoding](./data_structures/ML_1044_Speculative_Decoding.ipynb) | Inference | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1044_Speculative_Decoding.ipynb) |
+| 1045 | [BPE Tokenizer](./data_structures/ML_1045_BPE.ipynb) | Tokenization | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1045_BPE.ipynb) |
+| 1046 | [INT8 Quantization](./data_structures/ML_1046_INT8_Quantization.ipynb) | Inference | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1046_INT8_Quantization.ipynb) |
+| 1047 | [DPO Loss](./data_structures/ML_1047_DPO_Loss.ipynb) | RLHF | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1047_DPO_Loss.ipynb) |
+| 1048 | [GRPO Loss](./data_structures/ML_1048_GRPO_Loss.ipynb) | RLHF | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1048_GRPO_Loss.ipynb) |
+| 1049 | [PPO Loss](./data_structures/ML_1049_PPO_Loss.ipynb) | RLHF | ![Hard](https://img.shields.io/badge/-Hard-red) | [notebook](./data_structures/ML_1049_PPO_Loss.ipynb) |
+| 1050 | [Linear Regression](./data_structures/ML_1050_Linear_Regression.ipynb) | Fundamentals | ![Medium](https://img.shields.io/badge/-Medium-warning) | [notebook](./data_structures/ML_1050_Linear_Regression.ipynb) |
 
 ## Large Language Models
 
