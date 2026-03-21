@@ -41,22 +41,63 @@ public:
         
         return dp[n];
     }
+
+
+
+    int climbStairs_fibonacci(int n) {
+        if (n <= 1) {
+            return n;
+        }
+    
+        vector<int> dp(n + 1, 0);
+        dp[1] = 1;
+        dp[2] = 2;
+    
+        for (int i = 3; i <= n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+    
+        return dp[n];
+    }
 };
 
 int main() {
     Solution sol;
     int n = 3;
     int result = sol.climbStairs(n);
+    int result2 = sol.climbStairs_fibonacci(n);
     cout << "Test case n=3: " << result << endl; // Output should be 3
+    cout << "Test case n=3: " << result2 << endl; // Output should be 3
     return 0;
 }
 
 
 /*
+Below matrix is totally wrong!
 step = [1,2]
     0 1 2 3
 1   1 1 1 2
 2   1 1 2 3
+
+correct version: 
+
+    1 2 
+0   1  
+1   1 1
+2   1 2
+3   2 3 
+
+start          [1, 0, 0, 0]
+
+i=1, step=1    [1, 1, 0, 0]
+i=1, step=2    [1, 1, 0, 0]
+
+i=2, step=1    [1, 1, 1, 0]
+i=2, step=2    [1, 1, 2, 0]
+
+i=3, step=1    [1, 1, 2, 2]
+i=3, step=2    [1, 1, 2, 3]
+
 */
 
 // g++ -std=c++17 Leetcode_0070_Climbing_Stairs.cpp -o test
